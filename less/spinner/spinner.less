@@ -1,0 +1,210 @@
+@spinner-bouncing-ball-radius: 2px;
+@spinner-bouncing-ball-jump-high: 5px;
+@spinner-bouncing-ball-lasting: 0.8s;
+@spinner-bouncing-ball-delay: 0.2s;
+
+@spinner-volume-delay: 0.09s;
+@spinner-volume-radius: 1px;
+@spinner-volume-scale: 3.0;
+@spinner-volume-lasting: 1.8s;
+@spinner-volume-height: 6px;
+
+.spinner-spinning-bubbles > svg {
+    vertical-align: middle;
+}
+
+
+@colorCode  : "222", "fff", "5293D4";
+@defaultColor: e(extract(@colorCode, 1));
+@spinnerColor: e("#@{defaultColor}");
+@size   	: 16, 32, 48, 64, 128;
+
+div.floatingCirclesG{
+	margin:auto;
+	display: inline-block !important;
+	vertical-align: middle;
+
+	.loop-size(@loop-array, @i: length(@loop-array)) when (@i > 0) {
+	    @loop-value : e(extract(@loop-array, @i));
+
+	    @width    : `parseInt('@{loop-value}')`;
+	    @width45  : round(@width*45/110);
+	    @width20  : round(@width*20/110);
+	    @width13  : round(@width*13/110);
+	    @width10  : round(@width*10/110);
+	    &.width@{loop-value} {
+	        position:relative;
+			width:~"@{width}px";
+			height:~"@{width}px";
+
+			div.frotateG_01{
+				left:0;
+				top:~"@{width45}px";
+				animation-delay:0.24s;
+			}
+
+			div.frotateG_02{
+				left:~"@{width13}px";
+				top:~"@{width13}px";
+				animation-delay:0.32s;
+			}
+
+			div.frotateG_03{
+				left:~"@{width45}px";
+				top:0;
+				animation-delay:0.4s;
+			}
+
+			div.frotateG_04{
+				right:~"@{width13}px";
+				top:~"@{width13}px";
+				animation-delay:0.48s;
+			}
+
+			div.frotateG_05{
+				right:0;
+				top:~"@{width45}px";
+				animation-delay:0.56s;
+			}
+
+			div.frotateG_06{
+				right:~"@{width13}px";
+				bottom:~"@{width13}px";
+				animation-delay:0.64s;
+			}
+
+			div.frotateG_07{
+				left:~"@{width45}px";
+				bottom:0;
+				animation-delay:0.72s;
+			}
+
+			div.frotateG_08{
+				left:~"@{width13}px";
+				bottom:~"@{width13}px";
+				animation-delay:0.8s;
+			}
+
+			.f_circleG{
+				position:absolute;
+				background-color:#FFF0;
+				height:~"@{width20}px";
+				width:~"@{width20}px";
+				border-radius:~"@{width10}px";
+              animation-name:e("f_fade_@{defaultColor}");
+				animation-duration:0.64s;
+				animation-iteration-count:infinite;
+				animation-direction:normal;
+
+				.declare-new-color(@colorCode);
+			}
+	    }
+
+	    .loop-size(@loop-array, @i - 1);
+	}
+	.loop-size(@size);
+
+}
+
+.declare-new-color(@loop-color-array, @ii: length(@loop-color-array)) when (@ii > 0){
+  	@loop-color : e(extract(@loop-color-array, @ii));
+    &.color_@{loop-color}{ animation-name:e("f_fade_@{loop-color}"); }
+	.declare-new-color(@loop-color-array, @ii - 1);
+}
+
+.define-color-anim-fn(@colorName, @colorCode){
+  .mixi-frames () {
+    0% {background-color: e("@{colorCode}");}
+	  100% {background-color: #FFF0;}
+	}
+  @keyframes e(@colorName) {.mixi-frames;}
+}
+
+.declare-new-fade(@loop-array, @i: length(@loop-array)) when (@i > 0){
+  	@loop-value : e(extract(@loop-array, @i));
+  .define-color-anim-fn(e("f_fade_@{loop-value}"), e("#@{loop-value}")) ;
+  .declare-new-fade(@loop-array, @i - 1);
+}
+.declare-new-fade( @colorCode);
+
+
+// 3 bars bouncing on a line
+.spinner-bouncing-ball {
+    display: inline-block;
+
+    @keyframes spinner-bouncing-ball {
+        0%, 100% {
+            transform: translateY(0px);
+            animation-timing-function: ease-out;
+        }
+        50% {
+            transform: translateY(-@spinner-bouncing-ball-jump-high);
+            animation-timing-function: ease-in;
+        }
+    }
+
+    .bouncing-ball {
+        display: inline-block;
+        width: 2 * @spinner-bouncing-ball-radius;
+        height: 2 * @spinner-bouncing-ball-radius;
+        border-radius: @spinner-bouncing-ball-radius;
+
+        animation: spinner-bouncing-ball @spinner-bouncing-ball-lasting ease-in-out infinite;
+
+        &:nth-child(1) {
+            background-color: @spinnerColor;
+            animation-delay: 0s;
+        }
+        &:nth-child(2) {
+            background-color: @spinnerColor;
+            animation-delay: @spinner-bouncing-ball-delay;
+        }
+        &:nth-child(3) {
+            background-color: @spinnerColor;
+            animation-delay: @spinner-bouncing-ball-delay * 2;
+        }
+    }
+}
+
+// 4 vertical volume bars
+.spinner-volume {
+    display: inline-block;
+
+    @keyframes spinner-volume {
+        0% {
+            transform: scale(1);
+        }
+        20% {
+            transform: scale(1, @spinner-volume-scale);
+        }
+        40% {
+            transform: scale(1);
+        }
+    }
+
+    .volume {
+        display: inline-block;
+        width: 2 * @spinner-volume-radius;
+        height: @spinner-volume-height;
+        border-radius: @spinner-volume-radius;
+
+        animation: spinner-volume @spinner-volume-lasting ease-in-out infinite;
+
+        &:nth-child(1) {
+            background-color: @spinnerColor;
+            animation-delay: 0s;
+        }
+        &:nth-child(2) {
+            background-color: @spinnerColor;
+            animation-delay: @spinner-volume-delay;
+        }
+        &:nth-child(3) {
+            background-color: @spinnerColor;
+            animation-delay: @spinner-volume-delay * 2;
+        }
+        &:nth-child(4) {
+            background-color: @spinnerColor;
+            animation-delay: @spinner-volume-delay * 3;
+        }
+    }
+}
