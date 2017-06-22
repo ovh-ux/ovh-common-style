@@ -1,7 +1,5 @@
 
-[![Managers common style](githubBanner.png)](https://github.com/ovh-ux/ovh-common-style)
- 
-Managers common style
+ Managers common style
  
 [![Build Status](https://travis-ci.org/ovh-ux/ovh-common-style.svg)](https://travis-ci.org/ovh-ux/ovh-common-style)
 
