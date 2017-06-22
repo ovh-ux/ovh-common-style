@@ -1,15 +1,14 @@
-
- Managers common style
- 
-[![Build Status](https://travis-ci.org/ovh-ux/ovh-common-style.svg)](https://travis-ci.org/ovh-ux/ovh-common-style)
-
 # Managers common style
 
 ![OVH components](githubBanner.png)
 
+[![Build Status](https://travis-ci.org/ovh-ux/ovh-common-style.svg)](https://travis-ci.org/ovh-ux/ovh-common-style)
+
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]() [![Chat on gitter](https://img.shields.io/gitter/room/ovh/ux.svg)](https://gitter.im/ovh/ux) [![Build Status](https://travis-ci.org/ovh-ux/ovh-common-style.svg)](https://travis-ci.org/ovh-ux/ovh-common-style)
 
 [![NPM](https://nodei.co/npm/ovh-common-style.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ovh-common-style/)
+
+Managers common style
 
 # Usage
 
