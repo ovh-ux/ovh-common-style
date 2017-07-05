@@ -1,12 +1,12 @@
 # Managers common style
 
-![OVH components](githubBanner.png)
+![OVH component](https://user-images.githubusercontent.com/3379410/27423240-3f944bc4-5731-11e7-87bb-3ff603aff8a7.png)
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]() [![Chat on gitter](https://img.shields.io/gitter/room/ovh/ux.svg)](https://gitter.im/ovh/ux) [![Build Status](https://travis-ci.org/ovh-ux/ovh-common-style.svg)](https://travis-ci.org/ovh-ux/ovh-common-style)
 
 [![NPM](https://nodei.co/npm/ovh-common-style.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/ovh-common-style/)
 
-Managers common style
+> Managers common style.
 
 # Usage
 
@@ -200,7 +200,7 @@ Add an configurable SVG spinner.
   - `type`: Set the spinner type, see [here](http://jxnblk.com/loading/) ( _default_ : spinning-bubbles, _can be_ : 'bubbles', 'bars', 'spinning-bubbles')
 
 
- 
+
 # Installation
 
 ## Bower
@@ -210,7 +210,7 @@ Add an configurable SVG spinner.
 ## NPM
 
     npm install ovh-common-style --save
- 
+
 # Configuration
 
 ## Angularjs directives
@@ -238,33 +238,33 @@ angular.module("myApp", ["ovh-common-style"]);
 ```less
 @import 'ovh-common-style/less/fonts/open-sans.less';
 ```
- 
+
 ## Get the sources
- 
+
 ```bash
     git clone https://github.com/ovh-ux/ovh-common-style.git
     cd ovh-common-style
     npm install
     bower install
 ```
- 
+
 You've developed a new cool feature ? Fixed an annoying bug ? We'd be happy
 to hear from you !
 
 Have a look in [CONTRIBUTING.md](https://github.com/ovh-ux/ovh-common-style/blob/master/CONTRIBUTING.md)
- 
+
 ## Run the tests
- 
+
 ```
 npm test
 ```
- 
+
 # Related links
- 
+
  * Contribute: https://github.com/ovh-ux/ovh-common-style
  * Report bugs: https://github.com/ovh-ux/ovh-common-style/issues
  * Get latest version: https://github.com/ovh-ux/ovh-common-style
- 
+
 # License
- 
+
 See https://github.com/ovh-ux/ovh-common-style/blob/master/LICENSE

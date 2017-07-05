@@ -4,7 +4,7 @@
     "description": "Managers common style",
     "main": "./dist/ovh-common-style.min.js",
     "repository": "ovh-ux/ovh-common-style.git",
-    "scripts":{
+    "scripts": {
         "test": "grunt test",
         "fix": "eslint --fix src"
     },
