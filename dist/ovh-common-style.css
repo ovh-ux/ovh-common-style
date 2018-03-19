@@ -1,0 +1,3347 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../fonts/SourceSansPro/sourcesanspro-bold-webfont.eot');
+  src: url('../../fonts/SourceSansPro/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/SourceSansPro/sourcesanspro-bold-webfont.woff2') format('woff2'), url('../../fonts/SourceSansPro/sourcesanspro-bold-webfont.woff') format('woff'), url('../../fonts/SourceSansPro/sourcesanspro-bold-webfont.ttf') format('truetype'), url('../../fonts/SourceSansPro/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../fonts/SourceSansPro/sourcesanspro-boldit-webfont.eot');
+  src: url('../../fonts/SourceSansPro/sourcesanspro-boldit-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/SourceSansPro/sourcesanspro-boldit-webfont.woff2') format('woff2'), url('../../fonts/SourceSansPro/sourcesanspro-boldit-webfont.woff') format('woff'), url('../../fonts/SourceSansPro/sourcesanspro-boldit-webfont.ttf') format('truetype'), url('../../fonts/SourceSansPro/sourcesanspro-boldit-webfont.svg#source_sans_probold_italic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../fonts/SourceSansPro/sourcesanspro-it-webfont.eot');
+  src: url('../../fonts/SourceSansPro/sourcesanspro-it-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/SourceSansPro/sourcesanspro-it-webfont.woff2') format('woff2'), url('../../fonts/SourceSansPro/sourcesanspro-it-webfont.woff') format('woff'), url('../../fonts/SourceSansPro/sourcesanspro-it-webfont.ttf') format('truetype'), url('../../fonts/SourceSansPro/sourcesanspro-it-webfont.svg#source_sans_proitalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../fonts/SourceSansPro/sourcesanspro-light-webfont.eot');
+  src: url('../../fonts/SourceSansPro/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/SourceSansPro/sourcesanspro-light-webfont.woff2') format('woff2'), url('../../fonts/SourceSansPro/sourcesanspro-light-webfont.woff') format('woff'), url('../../fonts/SourceSansPro/sourcesanspro-light-webfont.ttf') format('truetype'), url('../../fonts/SourceSansPro/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../fonts/SourceSansPro/sourcesanspro-lightit-webfont.eot');
+  src: url('../../fonts/SourceSansPro/sourcesanspro-lightit-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/SourceSansPro/sourcesanspro-lightit-webfont.woff2') format('woff2'), url('../../fonts/SourceSansPro/sourcesanspro-lightit-webfont.woff') format('woff'), url('../../fonts/SourceSansPro/sourcesanspro-lightit-webfont.ttf') format('truetype'), url('../../fonts/SourceSansPro/sourcesanspro-lightit-webfont.svg#source_sans_prolight_italic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../fonts/SourceSansPro/sourcesanspro-regular-webfont.eot');
+  src: url('../../fonts/SourceSansPro/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/SourceSansPro/sourcesanspro-regular-webfont.woff2') format('woff2'), url('../../fonts/SourceSansPro/sourcesanspro-regular-webfont.woff') format('woff'), url('../../fonts/SourceSansPro/sourcesanspro-regular-webfont.ttf') format('truetype'), url('../../fonts/SourceSansPro/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../fonts/SourceSansPro/sourcesanspro-semibold-webfont.eot');
+  src: url('../../fonts/SourceSansPro/sourcesanspro-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/SourceSansPro/sourcesanspro-semibold-webfont.woff2') format('woff2'), url('../../fonts/SourceSansPro/sourcesanspro-semibold-webfont.woff') format('woff'), url('../../fonts/SourceSansPro/sourcesanspro-semibold-webfont.ttf') format('truetype'), url('../../fonts/SourceSansPro/sourcesanspro-semibold-webfont.svg#source_sans_prosemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../../fonts/SourceSansPro/sourcesanspro-semiboldit-webfont.eot');
+  src: url('../../fonts/SourceSansPro/sourcesanspro-semiboldit-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/SourceSansPro/sourcesanspro-semiboldit-webfont.woff2') format('woff2'), url('../../fonts/SourceSansPro/sourcesanspro-semiboldit-webfont.woff') format('woff'), url('../../fonts/SourceSansPro/sourcesanspro-semiboldit-webfont.ttf') format('truetype'), url('../../fonts/SourceSansPro/sourcesanspro-semiboldit-webfont.svg#source_sans_proSBdIt') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+.font-open-sans {
+  font-family: 'Open Sans', 'Trebuchet MS', 'Arial', sans-serif;
+}
+/* BEGIN Light */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/Light/OpenSans-Light.eot?v=1.1.0");
+  src: local('Open Sans Light'), local('OpenSans-Light'), url("../../fonts/open-sans/Light/OpenSans-Light.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/Light/OpenSans-Light.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/Light/OpenSans-Light.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/Light/OpenSans-Light.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/Light/OpenSans-Light.svg?v=1.1.0") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+/* END Light */
+/* BEGIN Light Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/LightItalic/OpenSans-LightItalic.eot?v=1.1.0");
+  src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url("../../fonts/open-sans/LightItalic/OpenSans-LightItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/LightItalic/OpenSans-LightItalic.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/LightItalic/OpenSans-LightItalic.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/LightItalic/OpenSans-LightItalic.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/LightItalic/OpenSans-LightItalic.svg?v=1.1.0") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+/* END Light Italic */
+/* BEGIN Regular */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/Regular/OpenSans-Regular.eot?v=1.1.0");
+  src: local('Open Sans'), local('OpenSans'), url("../../fonts/open-sans/Regular/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/Regular/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/Regular/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/Regular/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/Regular/OpenSans-Regular.svg?v=1.1.0") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+/* END Regular */
+/* BEGIN Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/Italic/OpenSans-Italic.eot?v=1.1.0");
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url("../../fonts/open-sans/Italic/OpenSans-Italic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/Italic/OpenSans-Italic.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/Italic/OpenSans-Italic.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/Italic/OpenSans-Italic.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/Italic/OpenSans-Italic.svg?v=1.1.0") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+/* END Italic */
+/* BEGIN Semibold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/Semibold/OpenSans-Semibold.eot?v=1.1.0");
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url("../../fonts/open-sans/Semibold/OpenSans-Semibold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/Semibold/OpenSans-Semibold.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/Semibold/OpenSans-Semibold.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/Semibold/OpenSans-Semibold.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/Semibold/OpenSans-Semibold.svg?v=1.1.0") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+/* END Semibold */
+/* BEGIN Semibold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.eot?v=1.1.0");
+  src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url("../../fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.svg?v=1.1.0") format("svg");
+  font-weight: 600;
+  font-style: italic;
+}
+/* END Semibold Italic */
+/* BEGIN Bold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/Bold/OpenSans-Bold.eot?v=1.1.0");
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url("../../fonts/open-sans/Bold/OpenSans-Bold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/Bold/OpenSans-Bold.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/Bold/OpenSans-Bold.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/Bold/OpenSans-Bold.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/Bold/OpenSans-Bold.svg?v=1.1.0") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+/* END Bold */
+/* BEGIN Bold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/BoldItalic/OpenSans-BoldItalic.eot?v=1.1.0");
+  src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url("../../fonts/open-sans/BoldItalic/OpenSans-BoldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/BoldItalic/OpenSans-BoldItalic.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/BoldItalic/OpenSans-BoldItalic.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/BoldItalic/OpenSans-BoldItalic.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg?v=1.1.0") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+/* END Bold Italic */
+/* BEGIN Extrabold */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/ExtraBold/OpenSans-ExtraBold.eot?v=1.1.0");
+  src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url("../../fonts/open-sans/ExtraBold/OpenSans-ExtraBold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/ExtraBold/OpenSans-ExtraBold.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/ExtraBold/OpenSans-ExtraBold.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/ExtraBold/OpenSans-ExtraBold.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/ExtraBold/OpenSans-ExtraBold.svg?v=1.1.0") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+/* END Extrabold */
+/* BEGIN Extrabold Italic */
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?v=1.1.0");
+  src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url("../../fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../../fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff2?v=1.1.0") format("woff2"), url("../../fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff?v=1.1.0") format("woff"), url("../../fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf?v=1.1.0") format("truetype"), url("../../fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg?v=1.1.0") format("svg");
+  font-weight: 800;
+  font-style: italic;
+}
+/* END Extrabold Italic */
+.font-lato {
+  font-family: 'lato', 'Trebuchet MS', 'Arial', sans-serif;
+}
+.font-lato-black {
+  font-family: 'lato-black', 'Trebuchet MS', 'Arial', sans-serif;
+}
+@font-face {
+  font-family: 'lato-black';
+  src: url('../../fonts/lato/black/lato-black-webfont.eot');
+  src: url('../../fonts/lato/black/lato-black-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/black/lato-black-webfont.woff2') format('woff2'), url('../../fonts/lato/black/lato-black-webfont.woff') format('woff'), url('../../fonts/lato/black/lato-black-webfont.ttf') format('truetype'), url('../../fonts/lato/black/lato-black-webfont.svg#latoblack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato-black';
+  src: url('../../fonts/lato/black/italic/lato-blackitalic-webfont.eot');
+  src: url('../../fonts/lato/black/italic/lato-blackitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/black/italic/lato-blackitalic-webfont.woff2') format('woff2'), url('../../fonts/lato/black/italic/lato-blackitalic-webfont.woff') format('woff'), url('../../fonts/lato/black/italic/lato-blackitalic-webfont.ttf') format('truetype'), url('../../fonts/lato/black/italic/lato-blackitalic-webfont.svg#latoblack_italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'lato';
+  src: url('../../fonts/lato/light/lato-light-webfont.eot');
+  src: url('../../fonts/lato/light/lato-light-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/light/lato-light-webfont.woff2') format('woff2'), url('../../fonts/lato/light/lato-light-webfont.woff') format('woff'), url('../../fonts/lato/light/lato-light-webfont.ttf') format('truetype'), url('../../fonts/lato/light/lato-light-webfont.svg#latolight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato';
+  src: url('../../fonts/lato/light/italic/lato-lightitalic-webfont.eot');
+  src: url('../../fonts/lato/light/italic/lato-lightitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/light/italic/lato-lightitalic-webfont.woff2') format('woff2'), url('../../fonts/lato/light/italic/lato-lightitalic-webfont.woff') format('woff'), url('../../fonts/lato/light/italic/lato-lightitalic-webfont.ttf') format('truetype'), url('../../fonts/lato/light/italic/lato-lightitalic-webfont.svg#latolight_italic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'lato';
+  src: url('../../fonts/lato/semibold/lato-semibold-webfont.eot');
+  src: url('../../fonts/lato/semibold/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/semibold/lato-semibold-webfont.woff2') format('woff2'), url('../../fonts/lato/semibold/lato-semibold-webfont.woff') format('woff'), url('../../fonts/lato/semibold/lato-semibold-webfont.ttf') format('truetype'), url('../../fonts/lato/semibold/lato-semibold-webfont.svg#latosemibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato';
+  src: url('../../fonts/lato/bold/lato-bold-webfont.eot');
+  src: url('../../fonts/lato/bold/lato-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/bold/lato-bold-webfont.woff2') format('woff2'), url('../../fonts/lato/bold/lato-bold-webfont.woff') format('woff'), url('../../fonts/lato/bold/lato-bold-webfont.ttf') format('truetype'), url('../../fonts/lato/bold/lato-bold-webfont.svg#latobold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato';
+  src: url('../../fonts/lato/bold/italic/lato-bolditalic-webfont.eot');
+  src: url('../../fonts/lato/bold/italic/lato-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/bold/italic/lato-bolditalic-webfont.woff2') format('woff2'), url('../../fonts/lato/bold/italic/lato-bolditalic-webfont.woff') format('woff'), url('../../fonts/lato/bold/italic/lato-bolditalic-webfont.ttf') format('truetype'), url('../../fonts/lato/bold/italic/lato-bolditalic-webfont.svg#latobold_italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'lato';
+  src: url('../../fonts/lato/italic/lato-italic-webfont.eot');
+  src: url('../../fonts/lato/italic/lato-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/italic/lato-italic-webfont.woff2') format('woff2'), url('../../fonts/lato/italic/lato-italic-webfont.woff') format('woff'), url('../../fonts/lato/italic/lato-italic-webfont.ttf') format('truetype'), url('../../fonts/lato/italic/lato-italic-webfont.svg#latoitalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'lato-medium';
+  src: url('../../fonts/lato/medium/lato-medium-webfont.eot');
+  src: url('../../fonts/lato/medium/lato-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/medium/lato-medium-webfont.woff2') format('woff2'), url('../../fonts/lato/medium/lato-medium-webfont.woff') format('woff'), url('../../fonts/lato/medium/lato-medium-webfont.ttf') format('truetype'), url('../../fonts/lato/medium/lato-medium-webfont.svg#latomedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato-medium';
+  src: url('../../fonts/lato/medium/italic/lato-mediumitalic-webfont.eot');
+  src: url('../../fonts/lato/medium/italic/lato-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/medium/italic/lato-mediumitalic-webfont.woff2') format('woff2'), url('../../fonts/lato/medium/italic/lato-mediumitalic-webfont.woff') format('woff'), url('../../fonts/lato/medium/italic/lato-mediumitalic-webfont.ttf') format('truetype'), url('../../fonts/lato/medium/italic/lato-mediumitalic-webfont.svg#latomedium_italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'lato-regular';
+  src: url('../../fonts/lato/regular/lato-regular-webfont.eot');
+  src: url('../../fonts/lato/regular/lato-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/lato/regular/lato-regular-webfont.woff2') format('woff2'), url('../../fonts/lato/regular/lato-regular-webfont.woff') format('woff'), url('../../fonts/lato/regular/lato-regular-webfont.ttf') format('truetype'), url('../../fonts/lato/regular/lato-regular-webfont.svg#latoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato-thin';
+  src: url('../../fonts/thin/lato-thin-webfont.eot');
+  src: url('../../fonts/thin/lato-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/thin/lato-thin-webfont.woff2') format('woff2'), url('../../fonts/thin/lato-thin-webfont.woff') format('woff'), url('../../fonts/thin/lato-thin-webfont.ttf') format('truetype'), url('../../fonts/thin/lato-thin-webfont.svg#latothin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lato-thin';
+  src: url('../../fonts/thin/italic/lato-thinitalic-webfont.eot');
+  src: url('../../fonts/thin/italic/lato-thinitalic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/thin/italic/lato-thinitalic-webfont.woff2') format('woff2'), url('../../fonts/thin/italic/lato-thinitalic-webfont.woff') format('woff'), url('../../fonts/thin/italic/lato-thinitalic-webfont.ttf') format('truetype'), url('../../fonts/thin/italic/lato-thinitalic-webfont.svg#latothin_italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu li:last-child {
+  text-align: center;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu li:last-child > span.pull-left {
+  float: none !important;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu li:last-child > span.pull-left .btn-danger {
+  display: none;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu li:last-child > button {
+  display: none;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu .btn.btn-default {
+  border: none;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu .btn.btn-default.active {
+  box-shadow: none;
+  border-radius: 2px;
+  background-color: #65afa0;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu .btn.btn-default.active span {
+  color: #ffffff;
+  font-weight: bold;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu .btn.btn-default:hover {
+  border-radius: 2px;
+  background-color: #84E0CE;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu .btn.btn-default:hover span {
+  color: #000000;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu table {
+  outline: none;
+}
+.datepicker-ui-pretty + [uib-datepicker-popup-wrap] > .dropdown-menu table thead tr:first-child > th {
+  padding-bottom: 10px;
+}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  opacity: 0.5;
+}
+.dropdown-menu > li > button {
+  border: none;
+  background: transparent;
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333333;
+  white-space: nowrap;
+  text-align: left;
+  min-width: 100%;
+}
+.dropdown-menu > li > button:hover,
+.dropdown-menu > li > button:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+.dropdown-menu > .active > button,
+.dropdown-menu > .active > button:hover,
+.dropdown-menu > .active > button:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #337ab7;
+}
+.dropdown-menu > .disabled > button,
+.dropdown-menu button:disabled,
+.dropdown-menu > .disabled > button:hover,
+.dropdown-menu button:disabled:hover,
+.dropdown-menu > .disabled > button:focus,
+.dropdown-menu button:disabled:focus {
+  opacity: 0.5;
+}
+.dropdown-menu > .disabled > button:hover,
+.dropdown-menu button:disabled:hover,
+.dropdown-menu > .disabled > button:focus,
+.dropdown-menu button:disabled:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+/**
+ * Columns of same height styles
+ * Based from the article : http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+ */
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+@media (min-width: 480px) {
+  .row-xs-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-xs-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-xs-top {
+    vertical-align: top;
+  }
+  .col-xs-middle {
+    vertical-align: middle;
+  }
+  .col-xs-bottom {
+    vertical-align: bottom;
+  }
+}
+@media (min-width: 768px) {
+  .row-sm-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-sm-top {
+    vertical-align: top;
+  }
+  .col-sm-middle {
+    vertical-align: middle;
+  }
+  .col-sm-bottom {
+    vertical-align: bottom;
+  }
+}
+@media (min-width: 992px) {
+  .row-md-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-md-top {
+    vertical-align: top;
+  }
+  .col-md-middle {
+    vertical-align: middle;
+  }
+  .col-md-bottom {
+    vertical-align: bottom;
+  }
+}
+@media (min-width: 1200px) {
+  .row-lg-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-lg-top {
+    vertical-align: top;
+  }
+  .col-lg-middle {
+    vertical-align: middle;
+  }
+  .col-lg-bottom {
+    vertical-align: bottom;
+  }
+}
+/*----------- opacity 1 to n and n to 1 -----------*/
+@keyframes animate-opacity9-enter {
+  0% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity9-enter {
+  animation: animate-opacity9-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity9-enter.ng-enter,
+.animate-opacity9-enter.ng-hide-remove {
+  animation: animate-opacity9-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity9-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+.opacity9-leave {
+  animation: animate-opacity9-leave 500ms;
+  opacity: 0.9;
+}
+.animate-opacity9-leave.ng-leave,
+.animate-opacity9-leave.ng-hide-add {
+  animation: animate-opacity9-leave 500ms;
+  opacity: 0.9;
+}
+@keyframes animate-opacity8-enter {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity8-enter {
+  animation: animate-opacity8-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity8-enter.ng-enter,
+.animate-opacity8-enter.ng-hide-remove {
+  animation: animate-opacity8-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity8-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}
+.opacity8-leave {
+  animation: animate-opacity8-leave 500ms;
+  opacity: 0.8;
+}
+.animate-opacity8-leave.ng-leave,
+.animate-opacity8-leave.ng-hide-add {
+  animation: animate-opacity8-leave 500ms;
+  opacity: 0.8;
+}
+@keyframes animate-opacity7-enter {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity7-enter {
+  animation: animate-opacity7-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity7-enter.ng-enter,
+.animate-opacity7-enter.ng-hide-remove {
+  animation: animate-opacity7-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity7-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.7;
+  }
+}
+.opacity7-leave {
+  animation: animate-opacity7-leave 500ms;
+  opacity: 0.7;
+}
+.animate-opacity7-leave.ng-leave,
+.animate-opacity7-leave.ng-hide-add {
+  animation: animate-opacity7-leave 500ms;
+  opacity: 0.7;
+}
+@keyframes animate-opacity6-enter {
+  0% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity6-enter {
+  animation: animate-opacity6-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity6-enter.ng-enter,
+.animate-opacity6-enter.ng-hide-remove {
+  animation: animate-opacity6-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity6-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+.opacity6-leave {
+  animation: animate-opacity6-leave 500ms;
+  opacity: 0.6;
+}
+.animate-opacity6-leave.ng-leave,
+.animate-opacity6-leave.ng-hide-add {
+  animation: animate-opacity6-leave 500ms;
+  opacity: 0.6;
+}
+@keyframes animate-opacity5-enter {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity5-enter {
+  animation: animate-opacity5-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity5-enter.ng-enter,
+.animate-opacity5-enter.ng-hide-remove {
+  animation: animate-opacity5-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity5-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+.opacity5-leave {
+  animation: animate-opacity5-leave 500ms;
+  opacity: 0.5;
+}
+.animate-opacity5-leave.ng-leave,
+.animate-opacity5-leave.ng-hide-add {
+  animation: animate-opacity5-leave 500ms;
+  opacity: 0.5;
+}
+@keyframes animate-opacity4-enter {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity4-enter {
+  animation: animate-opacity4-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity4-enter.ng-enter,
+.animate-opacity4-enter.ng-hide-remove {
+  animation: animate-opacity4-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity4-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+.opacity4-leave {
+  animation: animate-opacity4-leave 500ms;
+  opacity: 0.4;
+}
+.animate-opacity4-leave.ng-leave,
+.animate-opacity4-leave.ng-hide-add {
+  animation: animate-opacity4-leave 500ms;
+  opacity: 0.4;
+}
+@keyframes animate-opacity3-enter {
+  0% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity3-enter {
+  animation: animate-opacity3-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity3-enter.ng-enter,
+.animate-opacity3-enter.ng-hide-remove {
+  animation: animate-opacity3-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity3-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+.opacity3-leave {
+  animation: animate-opacity3-leave 500ms;
+  opacity: 0.3;
+}
+.animate-opacity3-leave.ng-leave,
+.animate-opacity3-leave.ng-hide-add {
+  animation: animate-opacity3-leave 500ms;
+  opacity: 0.3;
+}
+@keyframes animate-opacity2-enter {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity2-enter {
+  animation: animate-opacity2-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity2-enter.ng-enter,
+.animate-opacity2-enter.ng-hide-remove {
+  animation: animate-opacity2-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity2-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.opacity2-leave {
+  animation: animate-opacity2-leave 500ms;
+  opacity: 0.2;
+}
+.animate-opacity2-leave.ng-leave,
+.animate-opacity2-leave.ng-hide-add {
+  animation: animate-opacity2-leave 500ms;
+  opacity: 0.2;
+}
+@keyframes animate-opacity1-enter {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity1-enter {
+  animation: animate-opacity1-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity1-enter.ng-enter,
+.animate-opacity1-enter.ng-hide-remove {
+  animation: animate-opacity1-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity1-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+.opacity1-leave {
+  animation: animate-opacity1-leave 500ms;
+  opacity: 0.1;
+}
+.animate-opacity1-leave.ng-leave,
+.animate-opacity1-leave.ng-hide-add {
+  animation: animate-opacity1-leave 500ms;
+  opacity: 0.1;
+}
+@keyframes animate-opacity0-enter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.opacity0-enter {
+  animation: animate-opacity0-enter 500ms;
+  opacity: 1;
+}
+.animate-opacity0-enter.ng-enter,
+.animate-opacity0-enter.ng-hide-remove {
+  animation: animate-opacity0-enter 500ms;
+  opacity: 1;
+}
+@keyframes animate-opacity0-leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.opacity0-leave {
+  animation: animate-opacity0-leave 500ms;
+  opacity: 0;
+}
+.animate-opacity0-leave.ng-leave,
+.animate-opacity0-leave.ng-hide-add {
+  animation: animate-opacity0-leave 500ms;
+  opacity: 0;
+}
+/*----------- shake-light -----------*/
+@keyframes shake-light {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  10%,
+  70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+  40%,
+  100% {
+    transform: translate3d(3px, 0, 0);
+  }
+}
+.shake-light {
+  animation-name: shake-light;
+}
+.animate-shake-light-enter.ng-enter,
+.animate-shake-light-enter.ng-hide-remove {
+  animation: shake-light 200ms;
+}
+.animate-shake-light-leave.ng-leave,
+.animate-shake-light-leave.ng-hide-add {
+  animation: shake-light 200ms;
+}
+/*----------- inputs -----------*/
+input.ng-invalid.ng-dirty.error-animate-shake-light,
+textarea.ng-invalid.ng-dirty.error-animate-shake-light {
+  animation: shake-light 200ms;
+}
+input.ng-invalid.ng-dirty.error-animate-shake,
+textarea.ng-invalid.ng-dirty.error-animate-shake {
+  animation: shake 200ms;
+}
+/* Generate animation css class for angular :
+  bounce: .animate-bounce-enter (ng-enter, ng-hide-remove)
+          .animate-bounce-leave (ng-leave, ng-hide-add)
+ */
+.animate-slideOutRight-enter.ng-enter,
+.animate-slideOutRight-enter.ng-hide-remove {
+  animation: slideOutRight 500ms;
+}
+.animate-slideOutRight-leave.ng-leave,
+.animate-slideOutRight-leave.ng-hide-add {
+  animation: slideOutRight 500ms;
+}
+.animate-slideOutLeft-enter.ng-enter,
+.animate-slideOutLeft-enter.ng-hide-remove {
+  animation: slideOutLeft 500ms;
+}
+.animate-slideOutLeft-leave.ng-leave,
+.animate-slideOutLeft-leave.ng-hide-add {
+  animation: slideOutLeft 500ms;
+}
+.animate-slideOutDown-enter.ng-enter,
+.animate-slideOutDown-enter.ng-hide-remove {
+  animation: slideOutDown 500ms;
+}
+.animate-slideOutDown-leave.ng-leave,
+.animate-slideOutDown-leave.ng-hide-add {
+  animation: slideOutDown 500ms;
+}
+.animate-slideOutUp-enter.ng-enter,
+.animate-slideOutUp-enter.ng-hide-remove {
+  animation: slideOutUp 500ms;
+}
+.animate-slideOutUp-leave.ng-leave,
+.animate-slideOutUp-leave.ng-hide-add {
+  animation: slideOutUp 500ms;
+}
+.animate-slideInRight-enter.ng-enter,
+.animate-slideInRight-enter.ng-hide-remove {
+  animation: slideInRight 500ms;
+}
+.animate-slideInRight-leave.ng-leave,
+.animate-slideInRight-leave.ng-hide-add {
+  animation: slideInRight 500ms;
+}
+.animate-slideInLeft-enter.ng-enter,
+.animate-slideInLeft-enter.ng-hide-remove {
+  animation: slideInLeft 500ms;
+}
+.animate-slideInLeft-leave.ng-leave,
+.animate-slideInLeft-leave.ng-hide-add {
+  animation: slideInLeft 500ms;
+}
+.animate-slideInDown-enter.ng-enter,
+.animate-slideInDown-enter.ng-hide-remove {
+  animation: slideInDown 500ms;
+}
+.animate-slideInDown-leave.ng-leave,
+.animate-slideInDown-leave.ng-hide-add {
+  animation: slideInDown 500ms;
+}
+.animate-slideInUp-enter.ng-enter,
+.animate-slideInUp-enter.ng-hide-remove {
+  animation: slideInUp 500ms;
+}
+.animate-slideInUp-leave.ng-leave,
+.animate-slideInUp-leave.ng-hide-add {
+  animation: slideInUp 500ms;
+}
+.animate-zoomOutUp-enter.ng-enter,
+.animate-zoomOutUp-enter.ng-hide-remove {
+  animation: zoomOutUp 500ms;
+}
+.animate-zoomOutUp-leave.ng-leave,
+.animate-zoomOutUp-leave.ng-hide-add {
+  animation: zoomOutUp 500ms;
+}
+.animate-zoomOutRight-enter.ng-enter,
+.animate-zoomOutRight-enter.ng-hide-remove {
+  animation: zoomOutRight 500ms;
+}
+.animate-zoomOutRight-leave.ng-leave,
+.animate-zoomOutRight-leave.ng-hide-add {
+  animation: zoomOutRight 500ms;
+}
+.animate-zoomOutLeft-enter.ng-enter,
+.animate-zoomOutLeft-enter.ng-hide-remove {
+  animation: zoomOutLeft 500ms;
+}
+.animate-zoomOutLeft-leave.ng-leave,
+.animate-zoomOutLeft-leave.ng-hide-add {
+  animation: zoomOutLeft 500ms;
+}
+.animate-zoomOutDown-enter.ng-enter,
+.animate-zoomOutDown-enter.ng-hide-remove {
+  animation: zoomOutDown 500ms;
+}
+.animate-zoomOutDown-leave.ng-leave,
+.animate-zoomOutDown-leave.ng-hide-add {
+  animation: zoomOutDown 500ms;
+}
+.animate-zoomOut-enter.ng-enter,
+.animate-zoomOut-enter.ng-hide-remove {
+  animation: zoomOut 500ms;
+}
+.animate-zoomOut-leave.ng-leave,
+.animate-zoomOut-leave.ng-hide-add {
+  animation: zoomOut 500ms;
+}
+.animate-zoomInUp-enter.ng-enter,
+.animate-zoomInUp-enter.ng-hide-remove {
+  animation: zoomInUp 500ms;
+}
+.animate-zoomInUp-leave.ng-leave,
+.animate-zoomInUp-leave.ng-hide-add {
+  animation: zoomInUp 500ms;
+}
+.animate-zoomInRight-enter.ng-enter,
+.animate-zoomInRight-enter.ng-hide-remove {
+  animation: zoomInRight 500ms;
+}
+.animate-zoomInRight-leave.ng-leave,
+.animate-zoomInRight-leave.ng-hide-add {
+  animation: zoomInRight 500ms;
+}
+.animate-zoomInLeft-enter.ng-enter,
+.animate-zoomInLeft-enter.ng-hide-remove {
+  animation: zoomInLeft 500ms;
+}
+.animate-zoomInLeft-leave.ng-leave,
+.animate-zoomInLeft-leave.ng-hide-add {
+  animation: zoomInLeft 500ms;
+}
+.animate-zoomInDown-enter.ng-enter,
+.animate-zoomInDown-enter.ng-hide-remove {
+  animation: zoomInDown 500ms;
+}
+.animate-zoomInDown-leave.ng-leave,
+.animate-zoomInDown-leave.ng-hide-add {
+  animation: zoomInDown 500ms;
+}
+.animate-zoomIn-enter.ng-enter,
+.animate-zoomIn-enter.ng-hide-remove {
+  animation: zoomIn 500ms;
+}
+.animate-zoomIn-leave.ng-leave,
+.animate-zoomIn-leave.ng-hide-add {
+  animation: zoomIn 500ms;
+}
+.animate-rollOut-enter.ng-enter,
+.animate-rollOut-enter.ng-hide-remove {
+  animation: rollOut 500ms;
+}
+.animate-rollOut-leave.ng-leave,
+.animate-rollOut-leave.ng-hide-add {
+  animation: rollOut 500ms;
+}
+.animate-rollIn-enter.ng-enter,
+.animate-rollIn-enter.ng-hide-remove {
+  animation: rollIn 500ms;
+}
+.animate-rollIn-leave.ng-leave,
+.animate-rollIn-leave.ng-hide-add {
+  animation: rollIn 500ms;
+}
+.animate-hinge-enter.ng-enter,
+.animate-hinge-enter.ng-hide-remove {
+  animation: hinge 500ms;
+}
+.animate-hinge-leave.ng-leave,
+.animate-hinge-leave.ng-hide-add {
+  animation: hinge 500ms;
+}
+.animate-rotateOutUpRight-enter.ng-enter,
+.animate-rotateOutUpRight-enter.ng-hide-remove {
+  animation: rotateOutUpRight 500ms;
+}
+.animate-rotateOutUpRight-leave.ng-leave,
+.animate-rotateOutUpRight-leave.ng-hide-add {
+  animation: rotateOutUpRight 500ms;
+}
+.animate-rotateOutUpLeft-enter.ng-enter,
+.animate-rotateOutUpLeft-enter.ng-hide-remove {
+  animation: rotateOutUpLeft 500ms;
+}
+.animate-rotateOutUpLeft-leave.ng-leave,
+.animate-rotateOutUpLeft-leave.ng-hide-add {
+  animation: rotateOutUpLeft 500ms;
+}
+.animate-rotateOutDownRight-enter.ng-enter,
+.animate-rotateOutDownRight-enter.ng-hide-remove {
+  animation: rotateOutDownRight 500ms;
+}
+.animate-rotateOutDownRight-leave.ng-leave,
+.animate-rotateOutDownRight-leave.ng-hide-add {
+  animation: rotateOutDownRight 500ms;
+}
+.animate-rotateOutDownLeft-enter.ng-enter,
+.animate-rotateOutDownLeft-enter.ng-hide-remove {
+  animation: rotateOutDownLeft 500ms;
+}
+.animate-rotateOutDownLeft-leave.ng-leave,
+.animate-rotateOutDownLeft-leave.ng-hide-add {
+  animation: rotateOutDownLeft 500ms;
+}
+.animate-rotateOut-enter.ng-enter,
+.animate-rotateOut-enter.ng-hide-remove {
+  animation: rotateOut 500ms;
+}
+.animate-rotateOut-leave.ng-leave,
+.animate-rotateOut-leave.ng-hide-add {
+  animation: rotateOut 500ms;
+}
+.animate-rotateInUpRight-enter.ng-enter,
+.animate-rotateInUpRight-enter.ng-hide-remove {
+  animation: rotateInUpRight 500ms;
+}
+.animate-rotateInUpRight-leave.ng-leave,
+.animate-rotateInUpRight-leave.ng-hide-add {
+  animation: rotateInUpRight 500ms;
+}
+.animate-rotateInUpLeft-enter.ng-enter,
+.animate-rotateInUpLeft-enter.ng-hide-remove {
+  animation: rotateInUpLeft 500ms;
+}
+.animate-rotateInUpLeft-leave.ng-leave,
+.animate-rotateInUpLeft-leave.ng-hide-add {
+  animation: rotateInUpLeft 500ms;
+}
+.animate-rotateInDownRight-enter.ng-enter,
+.animate-rotateInDownRight-enter.ng-hide-remove {
+  animation: rotateInDownRight 500ms;
+}
+.animate-rotateInDownRight-leave.ng-leave,
+.animate-rotateInDownRight-leave.ng-hide-add {
+  animation: rotateInDownRight 500ms;
+}
+.animate-rotateInDownLeft-enter.ng-enter,
+.animate-rotateInDownLeft-enter.ng-hide-remove {
+  animation: rotateInDownLeft 500ms;
+}
+.animate-rotateInDownLeft-leave.ng-leave,
+.animate-rotateInDownLeft-leave.ng-hide-add {
+  animation: rotateInDownLeft 500ms;
+}
+.animate-rotateIn-enter.ng-enter,
+.animate-rotateIn-enter.ng-hide-remove {
+  animation: rotateIn 500ms;
+}
+.animate-rotateIn-leave.ng-leave,
+.animate-rotateIn-leave.ng-hide-add {
+  animation: rotateIn 500ms;
+}
+.animate-lightSpeedOut-enter.ng-enter,
+.animate-lightSpeedOut-enter.ng-hide-remove {
+  animation: lightSpeedOut 500ms;
+}
+.animate-lightSpeedOut-leave.ng-leave,
+.animate-lightSpeedOut-leave.ng-hide-add {
+  animation: lightSpeedOut 500ms;
+}
+.animate-lightSpeedIn-enter.ng-enter,
+.animate-lightSpeedIn-enter.ng-hide-remove {
+  animation: lightSpeedIn 500ms;
+}
+.animate-lightSpeedIn-leave.ng-leave,
+.animate-lightSpeedIn-leave.ng-hide-add {
+  animation: lightSpeedIn 500ms;
+}
+.animate-flipOutY-enter.ng-enter,
+.animate-flipOutY-enter.ng-hide-remove {
+  animation: flipOutY 500ms;
+}
+.animate-flipOutY-leave.ng-leave,
+.animate-flipOutY-leave.ng-hide-add {
+  animation: flipOutY 500ms;
+}
+.animate-flipOutX-enter.ng-enter,
+.animate-flipOutX-enter.ng-hide-remove {
+  animation: flipOutX 500ms;
+}
+.animate-flipOutX-leave.ng-leave,
+.animate-flipOutX-leave.ng-hide-add {
+  animation: flipOutX 500ms;
+}
+.animate-flipInY-enter.ng-enter,
+.animate-flipInY-enter.ng-hide-remove {
+  animation: flipInY 500ms;
+}
+.animate-flipInY-leave.ng-leave,
+.animate-flipInY-leave.ng-hide-add {
+  animation: flipInY 500ms;
+}
+.animate-flipInX-enter.ng-enter,
+.animate-flipInX-enter.ng-hide-remove {
+  animation: flipInX 500ms;
+}
+.animate-flipInX-leave.ng-leave,
+.animate-flipInX-leave.ng-hide-add {
+  animation: flipInX 500ms;
+}
+.animate-flip-enter.ng-enter,
+.animate-flip-enter.ng-hide-remove {
+  animation: flip 500ms;
+}
+.animate-flip-leave.ng-leave,
+.animate-flip-leave.ng-hide-add {
+  animation: flip 500ms;
+}
+.animate-fadeOutUpBig-enter.ng-enter,
+.animate-fadeOutUpBig-enter.ng-hide-remove {
+  animation: fadeOutUpBig 500ms;
+}
+.animate-fadeOutUpBig-leave.ng-leave,
+.animate-fadeOutUpBig-leave.ng-hide-add {
+  animation: fadeOutUpBig 500ms;
+}
+.animate-fadeOutUp-enter.ng-enter,
+.animate-fadeOutUp-enter.ng-hide-remove {
+  animation: fadeOutUp 500ms;
+}
+.animate-fadeOutUp-leave.ng-leave,
+.animate-fadeOutUp-leave.ng-hide-add {
+  animation: fadeOutUp 500ms;
+}
+.animate-fadeOutRightBig-enter.ng-enter,
+.animate-fadeOutRightBig-enter.ng-hide-remove {
+  animation: fadeOutRightBig 500ms;
+}
+.animate-fadeOutRightBig-leave.ng-leave,
+.animate-fadeOutRightBig-leave.ng-hide-add {
+  animation: fadeOutRightBig 500ms;
+}
+.animate-fadeOutRight-enter.ng-enter,
+.animate-fadeOutRight-enter.ng-hide-remove {
+  animation: fadeOutRight 500ms;
+}
+.animate-fadeOutRight-leave.ng-leave,
+.animate-fadeOutRight-leave.ng-hide-add {
+  animation: fadeOutRight 500ms;
+}
+.animate-fadeOutLeftBig-enter.ng-enter,
+.animate-fadeOutLeftBig-enter.ng-hide-remove {
+  animation: fadeOutLeftBig 500ms;
+}
+.animate-fadeOutLeftBig-leave.ng-leave,
+.animate-fadeOutLeftBig-leave.ng-hide-add {
+  animation: fadeOutLeftBig 500ms;
+}
+.animate-fadeOutLeft-enter.ng-enter,
+.animate-fadeOutLeft-enter.ng-hide-remove {
+  animation: fadeOutLeft 500ms;
+}
+.animate-fadeOutLeft-leave.ng-leave,
+.animate-fadeOutLeft-leave.ng-hide-add {
+  animation: fadeOutLeft 500ms;
+}
+.animate-fadeOutDownBig-enter.ng-enter,
+.animate-fadeOutDownBig-enter.ng-hide-remove {
+  animation: fadeOutDownBig 500ms;
+}
+.animate-fadeOutDownBig-leave.ng-leave,
+.animate-fadeOutDownBig-leave.ng-hide-add {
+  animation: fadeOutDownBig 500ms;
+}
+.animate-fadeOutDown-enter.ng-enter,
+.animate-fadeOutDown-enter.ng-hide-remove {
+  animation: fadeOutDown 500ms;
+}
+.animate-fadeOutDown-leave.ng-leave,
+.animate-fadeOutDown-leave.ng-hide-add {
+  animation: fadeOutDown 500ms;
+}
+.animate-fadeOut-enter.ng-enter,
+.animate-fadeOut-enter.ng-hide-remove {
+  animation: fadeOut 500ms;
+}
+.animate-fadeOut-leave.ng-leave,
+.animate-fadeOut-leave.ng-hide-add {
+  animation: fadeOut 500ms;
+}
+.animate-fadeInUpBig-enter.ng-enter,
+.animate-fadeInUpBig-enter.ng-hide-remove {
+  animation: fadeInUpBig 500ms;
+}
+.animate-fadeInUpBig-leave.ng-leave,
+.animate-fadeInUpBig-leave.ng-hide-add {
+  animation: fadeInUpBig 500ms;
+}
+.animate-fadeInUp-enter.ng-enter,
+.animate-fadeInUp-enter.ng-hide-remove {
+  animation: fadeInUp 500ms;
+}
+.animate-fadeInUp-leave.ng-leave,
+.animate-fadeInUp-leave.ng-hide-add {
+  animation: fadeInUp 500ms;
+}
+.animate-fadeInRightBig-enter.ng-enter,
+.animate-fadeInRightBig-enter.ng-hide-remove {
+  animation: fadeInRightBig 500ms;
+}
+.animate-fadeInRightBig-leave.ng-leave,
+.animate-fadeInRightBig-leave.ng-hide-add {
+  animation: fadeInRightBig 500ms;
+}
+.animate-fadeInRight-enter.ng-enter,
+.animate-fadeInRight-enter.ng-hide-remove {
+  animation: fadeInRight 500ms;
+}
+.animate-fadeInRight-leave.ng-leave,
+.animate-fadeInRight-leave.ng-hide-add {
+  animation: fadeInRight 500ms;
+}
+.animate-fadeInLeftBig-enter.ng-enter,
+.animate-fadeInLeftBig-enter.ng-hide-remove {
+  animation: fadeInLeftBig 500ms;
+}
+.animate-fadeInLeftBig-leave.ng-leave,
+.animate-fadeInLeftBig-leave.ng-hide-add {
+  animation: fadeInLeftBig 500ms;
+}
+.animate-fadeInLeft-enter.ng-enter,
+.animate-fadeInLeft-enter.ng-hide-remove {
+  animation: fadeInLeft 500ms;
+}
+.animate-fadeInLeft-leave.ng-leave,
+.animate-fadeInLeft-leave.ng-hide-add {
+  animation: fadeInLeft 500ms;
+}
+.animate-fadeInDownBig-enter.ng-enter,
+.animate-fadeInDownBig-enter.ng-hide-remove {
+  animation: fadeInDownBig 500ms;
+}
+.animate-fadeInDownBig-leave.ng-leave,
+.animate-fadeInDownBig-leave.ng-hide-add {
+  animation: fadeInDownBig 500ms;
+}
+.animate-fadeInDown-enter.ng-enter,
+.animate-fadeInDown-enter.ng-hide-remove {
+  animation: fadeInDown 500ms;
+}
+.animate-fadeInDown-leave.ng-leave,
+.animate-fadeInDown-leave.ng-hide-add {
+  animation: fadeInDown 500ms;
+}
+.animate-fadeIn-enter.ng-enter,
+.animate-fadeIn-enter.ng-hide-remove {
+  animation: fadeIn 500ms;
+}
+.animate-fadeIn-leave.ng-leave,
+.animate-fadeIn-leave.ng-hide-add {
+  animation: fadeIn 500ms;
+}
+.animate-bounceOutUp-enter.ng-enter,
+.animate-bounceOutUp-enter.ng-hide-remove {
+  animation: bounceOutUp 500ms;
+}
+.animate-bounceOutUp-leave.ng-leave,
+.animate-bounceOutUp-leave.ng-hide-add {
+  animation: bounceOutUp 500ms;
+}
+.animate-bounceOutRight-enter.ng-enter,
+.animate-bounceOutRight-enter.ng-hide-remove {
+  animation: bounceOutRight 500ms;
+}
+.animate-bounceOutRight-leave.ng-leave,
+.animate-bounceOutRight-leave.ng-hide-add {
+  animation: bounceOutRight 500ms;
+}
+.animate-bounceOutLeft-enter.ng-enter,
+.animate-bounceOutLeft-enter.ng-hide-remove {
+  animation: bounceOutLeft 500ms;
+}
+.animate-bounceOutLeft-leave.ng-leave,
+.animate-bounceOutLeft-leave.ng-hide-add {
+  animation: bounceOutLeft 500ms;
+}
+.animate-bounceOutDown-enter.ng-enter,
+.animate-bounceOutDown-enter.ng-hide-remove {
+  animation: bounceOutDown 500ms;
+}
+.animate-bounceOutDown-leave.ng-leave,
+.animate-bounceOutDown-leave.ng-hide-add {
+  animation: bounceOutDown 500ms;
+}
+.animate-bounceOut-enter.ng-enter,
+.animate-bounceOut-enter.ng-hide-remove {
+  animation: bounceOut 500ms;
+}
+.animate-bounceOut-leave.ng-leave,
+.animate-bounceOut-leave.ng-hide-add {
+  animation: bounceOut 500ms;
+}
+.animate-bounceInUp-enter.ng-enter,
+.animate-bounceInUp-enter.ng-hide-remove {
+  animation: bounceInUp 500ms;
+}
+.animate-bounceInUp-leave.ng-leave,
+.animate-bounceInUp-leave.ng-hide-add {
+  animation: bounceInUp 500ms;
+}
+.animate-bounceInRight-enter.ng-enter,
+.animate-bounceInRight-enter.ng-hide-remove {
+  animation: bounceInRight 500ms;
+}
+.animate-bounceInRight-leave.ng-leave,
+.animate-bounceInRight-leave.ng-hide-add {
+  animation: bounceInRight 500ms;
+}
+.animate-bounceInLeft-enter.ng-enter,
+.animate-bounceInLeft-enter.ng-hide-remove {
+  animation: bounceInLeft 500ms;
+}
+.animate-bounceInLeft-leave.ng-leave,
+.animate-bounceInLeft-leave.ng-hide-add {
+  animation: bounceInLeft 500ms;
+}
+.animate-bounceInDown-enter.ng-enter,
+.animate-bounceInDown-enter.ng-hide-remove {
+  animation: bounceInDown 500ms;
+}
+.animate-bounceInDown-leave.ng-leave,
+.animate-bounceInDown-leave.ng-hide-add {
+  animation: bounceInDown 500ms;
+}
+.animate-bounceIn-enter.ng-enter,
+.animate-bounceIn-enter.ng-hide-remove {
+  animation: bounceIn 500ms;
+}
+.animate-bounceIn-leave.ng-leave,
+.animate-bounceIn-leave.ng-hide-add {
+  animation: bounceIn 500ms;
+}
+.animate-wobble-enter.ng-enter,
+.animate-wobble-enter.ng-hide-remove {
+  animation: wobble 500ms;
+}
+.animate-wobble-leave.ng-leave,
+.animate-wobble-leave.ng-hide-add {
+  animation: wobble 500ms;
+}
+.animate-tada-enter.ng-enter,
+.animate-tada-enter.ng-hide-remove {
+  animation: tada 500ms;
+}
+.animate-tada-leave.ng-leave,
+.animate-tada-leave.ng-hide-add {
+  animation: tada 500ms;
+}
+.animate-swing-enter.ng-enter,
+.animate-swing-enter.ng-hide-remove {
+  animation: swing 500ms;
+}
+.animate-swing-leave.ng-leave,
+.animate-swing-leave.ng-hide-add {
+  animation: swing 500ms;
+}
+.animate-shake-enter.ng-enter,
+.animate-shake-enter.ng-hide-remove {
+  animation: shake 500ms;
+}
+.animate-shake-leave.ng-leave,
+.animate-shake-leave.ng-hide-add {
+  animation: shake 500ms;
+}
+.animate-rubberBand-enter.ng-enter,
+.animate-rubberBand-enter.ng-hide-remove {
+  animation: rubberBand 500ms;
+}
+.animate-rubberBand-leave.ng-leave,
+.animate-rubberBand-leave.ng-hide-add {
+  animation: rubberBand 500ms;
+}
+.animate-pulse-enter.ng-enter,
+.animate-pulse-enter.ng-hide-remove {
+  animation: pulse 500ms;
+}
+.animate-pulse-leave.ng-leave,
+.animate-pulse-leave.ng-hide-add {
+  animation: pulse 500ms;
+}
+.animate-flash-enter.ng-enter,
+.animate-flash-enter.ng-hide-remove {
+  animation: flash 500ms;
+}
+.animate-flash-leave.ng-leave,
+.animate-flash-leave.ng-hide-add {
+  animation: flash 500ms;
+}
+.animate-bounce-enter.ng-enter,
+.animate-bounce-enter.ng-hide-remove {
+  animation: bounce 500ms;
+}
+.animate-bounce-leave.ng-leave,
+.animate-bounce-leave.ng-hide-add {
+  animation: bounce 500ms;
+}
+/*----------- Rotations -----------*/
+.rotate {
+  transition: transform 500ms;
+}
+.rotate.rotate180 {
+  transform: rotate(180deg);
+}
+.rotate.rotate90 {
+  transform: rotate(90deg);
+}
+.rotate.rotate-90 {
+  transform: rotate(-90deg);
+}
+/*----------- Override animate css -----------*/
+.animated-300 {
+  animation-duration: 300ms;
+  animation-fill-mode: both;
+}
+.animated-infinite {
+  animation-iteration-count: infinite;
+}
+.white {
+  color: white !important;
+}
+.red {
+  color: red !important;
+}
+.orange {
+  color: #C58206 !important;
+}
+.no-style {
+  background: none;
+  border: none;
+  text-decoration: none;
+}
+.no-style:disabled {
+  opacity: 0.5;
+}
+.no-outline {
+  outline: none !important;
+}
+.no-space {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.no-select {
+  touch-callout: none;
+  user-select: none;
+}
+.no-transition {
+  transition: none !important;
+}
+.block {
+  display: block !important;
+}
+.inline {
+  display: inline !important;
+}
+.inline-block {
+  display: inline-block !important;
+}
+.dtable {
+  display: table;
+}
+.dthead {
+  display: table-header-group;
+}
+.dtbody {
+  display: table-row-group;
+}
+.dtfoot {
+  display: table-footer-group;
+}
+.dtd {
+  display: table-cell;
+}
+.dtr {
+  display: table-row;
+}
+.full-height {
+  height: 100% !important ;
+}
+.full-width {
+  width: 100% !important ;
+}
+.visibility-hide {
+  visibility: hidden !important ;
+}
+.opacity1 {
+  opacity: 0.1 !important;
+  filter: alpha(opacity=10) !important;
+}
+.opacity2 {
+  opacity: 0.2 !important;
+  filter: alpha(opacity=20) !important;
+}
+.opacity3 {
+  opacity: 0.3 !important;
+  filter: alpha(opacity=30) !important;
+}
+.opacity4 {
+  opacity: 0.4 !important;
+  filter: alpha(opacity=40) !important;
+}
+.opacity5 {
+  opacity: 0.5 !important;
+  filter: alpha(opacity=50) !important;
+}
+.opacity6 {
+  opacity: 0.6 !important;
+  filter: alpha(opacity=60) !important;
+}
+.opacity7 {
+  opacity: 0.7 !important;
+  filter: alpha(opacity=70) !important;
+}
+.opacity8 {
+  opacity: 0.8 !important;
+  filter: alpha(opacity=80) !important;
+}
+.opacity9 {
+  opacity: 0.9 !important;
+  filter: alpha(opacity=90) !important;
+}
+.pointer {
+  cursor: pointer !important;
+}
+.cursor-copy {
+  cursor: copy !important;
+}
+.vertical-resize {
+  resize: vertical !important ;
+}
+.horizontal-resize {
+  resize: horizontal !important  ;
+}
+.no-resize {
+  resize: none !important;
+}
+/* Shadow Helper */
+.no-box-shadow {
+  box-shadow: none !important;
+}
+.no-text-shadow {
+  text-shadow: none !important;
+}
+.shadow-z-1 {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+}
+/* box position */
+.flex-row-center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+.flex-col-center {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+/* Text Helper */
+.text-underline {
+  text-decoration: underline !important;
+}
+.text-through {
+  text-decoration: line-through !important;
+}
+/* Text Helper */
+.word-break {
+  word-break: break-all !important;
+}
+@media (max-width: 767px) {
+  .word-break-xs {
+    word-break: break-all !important;
+  }
+}
+@media (min-width: 768px) {
+  .word-break-sm {
+    word-break: break-all !important;
+  }
+}
+@media (min-width: 992px) {
+  .word-break-md {
+    word-break: break-all !important;
+  }
+}
+@media (min-width: 1200px) {
+  .word-break-lg {
+    word-break: break-all !important;
+  }
+}
+.word-wrap {
+  word-wrap: break-word !important;
+}
+@media (max-width: 767px) {
+  .word-wrap-xs {
+    word-wrap: break-word !important;
+  }
+}
+@media (min-width: 768px) {
+  .word-wrap-sm {
+    word-wrap: break-word !important;
+  }
+}
+@media (min-width: 992px) {
+  .word-wrap-md {
+    word-wrap: break-word !important;
+  }
+}
+@media (min-width: 1200px) {
+  .word-wrap-lg {
+    word-wrap: break-word !important;
+  }
+}
+/* Text Position */
+.text-left {
+  text-align: left !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+@media (max-width: 767px) {
+  .text-left-xs {
+    text-align: left !important;
+  }
+}
+@media (max-width: 767px) {
+  .text-center-xs {
+    text-align: center !important;
+  }
+}
+@media (max-width: 767px) {
+  .text-right-xs {
+    text-align: right !important;
+  }
+}
+@media (min-width: 768px) {
+  .text-left-sm {
+    text-align: left !important;
+  }
+}
+@media (min-width: 768px) {
+  .text-center-sm {
+    text-align: center !important;
+  }
+}
+@media (min-width: 768px) {
+  .text-right-sm {
+    text-align: right !important;
+  }
+}
+@media (min-width: 992px) {
+  .text-left-md {
+    text-align: left !important;
+  }
+}
+@media (min-width: 992px) {
+  .text-center-md {
+    text-align: center !important;
+  }
+}
+@media (min-width: 992px) {
+  .text-right-md {
+    text-align: right !important;
+  }
+}
+@media (min-width: 1200px) {
+  .text-left-lg {
+    text-align: left !important;
+  }
+}
+@media (min-width: 1200px) {
+  .text-center-lg {
+    text-align: center !important;
+  }
+}
+@media (min-width: 1200px) {
+  .text-right-lg {
+    text-align: right !important;
+  }
+}
+.vertical-text-top {
+  vertical-align: text-top !important;
+}
+.vertical-text-bottom {
+  vertical-align: text-bottom !important;
+}
+.vertical-top {
+  vertical-align: top !important;
+}
+.vertical-middle {
+  vertical-align: middle !important;
+}
+.vertical-bottom {
+  vertical-align: bottom !important;
+}
+@media (max-width: 767px) {
+  .vertical-text-top-xs {
+    vertical-align: text-top !important;
+  }
+}
+@media (max-width: 767px) {
+  .vertical-text-bottom-xs {
+    vertical-align: text-bottom !important;
+  }
+}
+@media (max-width: 767px) {
+  .vertical-top-xs {
+    vertical-align: top !important;
+  }
+}
+@media (max-width: 767px) {
+  .vertical-middle-xs {
+    vertical-align: middle !important;
+  }
+}
+@media (max-width: 767px) {
+  .vertical-bottom-xs {
+    vertical-align: bottom !important;
+  }
+}
+@media (min-width: 768px) {
+  .vertical-text-top-sm {
+    vertical-align: text-top !important;
+  }
+}
+@media (min-width: 768px) {
+  .vertical-text-bottom-sm {
+    vertical-align: text-bottom !important;
+  }
+}
+@media (min-width: 768px) {
+  .vertical-top-sm {
+    vertical-align: top !important;
+  }
+}
+@media (min-width: 768px) {
+  .vertical-middle-sm {
+    vertical-align: middle !important;
+  }
+}
+@media (min-width: 768px) {
+  .vertical-bottom-sm {
+    vertical-align: bottom !important;
+  }
+}
+@media (min-width: 992px) {
+  .vertical-text-top-md {
+    vertical-align: text-top !important;
+  }
+}
+@media (min-width: 992px) {
+  .vertical-text-bottom-md {
+    vertical-align: text-bottom !important;
+  }
+}
+@media (min-width: 992px) {
+  .vertical-top-md {
+    vertical-align: top !important;
+  }
+}
+@media (min-width: 992px) {
+  .vertical-middle-md {
+    vertical-align: middle !important;
+  }
+}
+@media (min-width: 992px) {
+  .vertical-bottom-md {
+    vertical-align: bottom !important;
+  }
+}
+@media (min-width: 1200px) {
+  .vertical-text-top-lg {
+    vertical-align: text-top !important;
+  }
+}
+@media (min-width: 1200px) {
+  .vertical-text-bottom-lg {
+    vertical-align: text-bottom !important;
+  }
+}
+@media (min-width: 1200px) {
+  .vertical-top-lg {
+    vertical-align: top !important;
+  }
+}
+@media (min-width: 1200px) {
+  .vertical-middle-lg {
+    vertical-align: middle !important;
+  }
+}
+@media (min-width: 1200px) {
+  .vertical-bottom-lg {
+    vertical-align: bottom !important;
+  }
+}
+/* Text size */
+.fs26 {
+  font-size: 26px !important;
+}
+.fs24 {
+  font-size: 24px !important;
+}
+.fs22 {
+  font-size: 22px !important;
+}
+.fs20 {
+  font-size: 20px !important;
+}
+.fs18 {
+  font-size: 18px !important;
+}
+.fs16 {
+  font-size: 16px !important;
+}
+.fs14 {
+  font-size: 14px !important;
+}
+.fs13 {
+  font-size: 13px !important;
+}
+.fs12 {
+  font-size: 12px !important;
+}
+.fs11 {
+  font-size: 11px !important;
+}
+.fs10 {
+  font-size: 10px !important;
+}
+.fs8 {
+  font-size: 8px !important;
+}
+.fs6 {
+  font-size: 6px !important;
+}
+.lh40 {
+  line-height: 40px !important;
+}
+.lh32 {
+  line-height: 32px !important;
+}
+.lh30 {
+  line-height: 30px !important;
+}
+.lh28 {
+  line-height: 28px !important;
+}
+.lh24 {
+  line-height: 24px !important;
+}
+.lh22 {
+  line-height: 22px !important;
+}
+.lh12 {
+  line-height: 12px !important;
+}
+.lh11 {
+  line-height: 11px !important;
+}
+.italic {
+  font-style: italic !important;
+}
+.normal {
+  font-weight: normal !important;
+}
+.bold {
+  font-weight: bold !important;
+}
+/* Space Helper */
+.space-m20 {
+  margin: 20px !important;
+}
+.space-p20 {
+  padding: 20px !important;
+}
+.right-space-m20 {
+  margin-right: 20px !important;
+}
+.right-space-p20 {
+  padding-right: 20px !important;
+}
+.left-space-m20 {
+  margin-left: 20px !important;
+}
+.left-space-p20 {
+  padding-left: 20px !important;
+}
+.bottom-space-m20 {
+  margin-bottom: 20px !important;
+}
+.bottom-space-p20 {
+  padding-bottom: 20px !important;
+}
+.top-space-m20 {
+  margin-top: 20px !important;
+}
+.top-space-p20 {
+  padding-top: 20px !important;
+}
+.space-m16 {
+  margin: 16px !important;
+}
+.space-p16 {
+  padding: 16px !important;
+}
+.right-space-m16 {
+  margin-right: 16px !important;
+}
+.right-space-p16 {
+  padding-right: 16px !important;
+}
+.left-space-m16 {
+  margin-left: 16px !important;
+}
+.left-space-p16 {
+  padding-left: 16px !important;
+}
+.bottom-space-m16 {
+  margin-bottom: 16px !important;
+}
+.bottom-space-p16 {
+  padding-bottom: 16px !important;
+}
+.top-space-m16 {
+  margin-top: 16px !important;
+}
+.top-space-p16 {
+  padding-top: 16px !important;
+}
+.space-m12 {
+  margin: 12px !important;
+}
+.space-p12 {
+  padding: 12px !important;
+}
+.right-space-m12 {
+  margin-right: 12px !important;
+}
+.right-space-p12 {
+  padding-right: 12px !important;
+}
+.left-space-m12 {
+  margin-left: 12px !important;
+}
+.left-space-p12 {
+  padding-left: 12px !important;
+}
+.bottom-space-m12 {
+  margin-bottom: 12px !important;
+}
+.bottom-space-p12 {
+  padding-bottom: 12px !important;
+}
+.top-space-m12 {
+  margin-top: 12px !important;
+}
+.top-space-p12 {
+  padding-top: 12px !important;
+}
+.space-m8 {
+  margin: 8px !important;
+}
+.space-p8 {
+  padding: 8px !important;
+}
+.right-space-m8 {
+  margin-right: 8px !important;
+}
+.right-space-p8 {
+  padding-right: 8px !important;
+}
+.left-space-m8 {
+  margin-left: 8px !important;
+}
+.left-space-p8 {
+  padding-left: 8px !important;
+}
+.bottom-space-m8 {
+  margin-bottom: 8px !important;
+}
+.bottom-space-p8 {
+  padding-bottom: 8px !important;
+}
+.top-space-m8 {
+  margin-top: 8px !important;
+}
+.top-space-p8 {
+  padding-top: 8px !important;
+}
+.space-m4 {
+  margin: 4px !important;
+}
+.space-p4 {
+  padding: 4px !important;
+}
+.right-space-m4 {
+  margin-right: 4px !important;
+}
+.right-space-p4 {
+  padding-right: 4px !important;
+}
+.left-space-m4 {
+  margin-left: 4px !important;
+}
+.left-space-p4 {
+  padding-left: 4px !important;
+}
+.bottom-space-m4 {
+  margin-bottom: 4px !important;
+}
+.bottom-space-p4 {
+  padding-bottom: 4px !important;
+}
+.top-space-m4 {
+  margin-top: 4px !important;
+}
+.top-space-p4 {
+  padding-top: 4px !important;
+}
+.space-m0 {
+  margin: 0px !important;
+}
+.space-p0 {
+  padding: 0px !important;
+}
+.right-space-m0 {
+  margin-right: 0px !important;
+}
+.right-space-p0 {
+  padding-right: 0px !important;
+}
+.left-space-m0 {
+  margin-left: 0px !important;
+}
+.left-space-p0 {
+  padding-left: 0px !important;
+}
+.bottom-space-m0 {
+  margin-bottom: 0px !important;
+}
+.bottom-space-p0 {
+  padding-bottom: 0px !important;
+}
+.top-space-m0 {
+  margin-top: 0px !important;
+}
+.top-space-p0 {
+  padding-top: 0px !important;
+}
+@media (max-width: 767px) {
+  .space-xs-m20 {
+    margin: 20px !important;
+  }
+  .space-xs-p20 {
+    padding: 20px !important;
+  }
+  .right-space-xs-m20 {
+    margin-right: 20px !important;
+  }
+  .right-space-xs-p20 {
+    padding-right: 20px !important;
+  }
+  .left-space-xs-m20 {
+    margin-left: 20px !important;
+  }
+  .left-space-xs-p20 {
+    padding-left: 20px !important;
+  }
+  .bottom-space-xs-m20 {
+    margin-bottom: 20px !important;
+  }
+  .bottom-space-xs-p20 {
+    padding-bottom: 20px !important;
+  }
+  .top-space-xs-m20 {
+    margin-top: 20px !important;
+  }
+  .top-space-xs-p20 {
+    padding-top: 20px !important;
+  }
+  .space-xs-m16 {
+    margin: 16px !important;
+  }
+  .space-xs-p16 {
+    padding: 16px !important;
+  }
+  .right-space-xs-m16 {
+    margin-right: 16px !important;
+  }
+  .right-space-xs-p16 {
+    padding-right: 16px !important;
+  }
+  .left-space-xs-m16 {
+    margin-left: 16px !important;
+  }
+  .left-space-xs-p16 {
+    padding-left: 16px !important;
+  }
+  .bottom-space-xs-m16 {
+    margin-bottom: 16px !important;
+  }
+  .bottom-space-xs-p16 {
+    padding-bottom: 16px !important;
+  }
+  .top-space-xs-m16 {
+    margin-top: 16px !important;
+  }
+  .top-space-xs-p16 {
+    padding-top: 16px !important;
+  }
+  .space-xs-m12 {
+    margin: 12px !important;
+  }
+  .space-xs-p12 {
+    padding: 12px !important;
+  }
+  .right-space-xs-m12 {
+    margin-right: 12px !important;
+  }
+  .right-space-xs-p12 {
+    padding-right: 12px !important;
+  }
+  .left-space-xs-m12 {
+    margin-left: 12px !important;
+  }
+  .left-space-xs-p12 {
+    padding-left: 12px !important;
+  }
+  .bottom-space-xs-m12 {
+    margin-bottom: 12px !important;
+  }
+  .bottom-space-xs-p12 {
+    padding-bottom: 12px !important;
+  }
+  .top-space-xs-m12 {
+    margin-top: 12px !important;
+  }
+  .top-space-xs-p12 {
+    padding-top: 12px !important;
+  }
+  .space-xs-m8 {
+    margin: 8px !important;
+  }
+  .space-xs-p8 {
+    padding: 8px !important;
+  }
+  .right-space-xs-m8 {
+    margin-right: 8px !important;
+  }
+  .right-space-xs-p8 {
+    padding-right: 8px !important;
+  }
+  .left-space-xs-m8 {
+    margin-left: 8px !important;
+  }
+  .left-space-xs-p8 {
+    padding-left: 8px !important;
+  }
+  .bottom-space-xs-m8 {
+    margin-bottom: 8px !important;
+  }
+  .bottom-space-xs-p8 {
+    padding-bottom: 8px !important;
+  }
+  .top-space-xs-m8 {
+    margin-top: 8px !important;
+  }
+  .top-space-xs-p8 {
+    padding-top: 8px !important;
+  }
+  .space-xs-m4 {
+    margin: 4px !important;
+  }
+  .space-xs-p4 {
+    padding: 4px !important;
+  }
+  .right-space-xs-m4 {
+    margin-right: 4px !important;
+  }
+  .right-space-xs-p4 {
+    padding-right: 4px !important;
+  }
+  .left-space-xs-m4 {
+    margin-left: 4px !important;
+  }
+  .left-space-xs-p4 {
+    padding-left: 4px !important;
+  }
+  .bottom-space-xs-m4 {
+    margin-bottom: 4px !important;
+  }
+  .bottom-space-xs-p4 {
+    padding-bottom: 4px !important;
+  }
+  .top-space-xs-m4 {
+    margin-top: 4px !important;
+  }
+  .top-space-xs-p4 {
+    padding-top: 4px !important;
+  }
+  .space-xs-m0 {
+    margin: 0px !important;
+  }
+  .space-xs-p0 {
+    padding: 0px !important;
+  }
+  .right-space-xs-m0 {
+    margin-right: 0px !important;
+  }
+  .right-space-xs-p0 {
+    padding-right: 0px !important;
+  }
+  .left-space-xs-m0 {
+    margin-left: 0px !important;
+  }
+  .left-space-xs-p0 {
+    padding-left: 0px !important;
+  }
+  .bottom-space-xs-m0 {
+    margin-bottom: 0px !important;
+  }
+  .bottom-space-xs-p0 {
+    padding-bottom: 0px !important;
+  }
+  .top-space-xs-m0 {
+    margin-top: 0px !important;
+  }
+  .top-space-xs-p0 {
+    padding-top: 0px !important;
+  }
+}
+@media (min-width: 768px) {
+  .space-sm-m20 {
+    margin: 20px !important;
+  }
+  .space-sm-p20 {
+    padding: 20px !important;
+  }
+  .right-space-sm-m20 {
+    margin-right: 20px !important;
+  }
+  .right-space-sm-p20 {
+    padding-right: 20px !important;
+  }
+  .left-space-sm-m20 {
+    margin-left: 20px !important;
+  }
+  .left-space-sm-p20 {
+    padding-left: 20px !important;
+  }
+  .bottom-space-sm-m20 {
+    margin-bottom: 20px !important;
+  }
+  .bottom-space-sm-p20 {
+    padding-bottom: 20px !important;
+  }
+  .top-space-sm-m20 {
+    margin-top: 20px !important;
+  }
+  .top-space-sm-p20 {
+    padding-top: 20px !important;
+  }
+  .space-sm-m16 {
+    margin: 16px !important;
+  }
+  .space-sm-p16 {
+    padding: 16px !important;
+  }
+  .right-space-sm-m16 {
+    margin-right: 16px !important;
+  }
+  .right-space-sm-p16 {
+    padding-right: 16px !important;
+  }
+  .left-space-sm-m16 {
+    margin-left: 16px !important;
+  }
+  .left-space-sm-p16 {
+    padding-left: 16px !important;
+  }
+  .bottom-space-sm-m16 {
+    margin-bottom: 16px !important;
+  }
+  .bottom-space-sm-p16 {
+    padding-bottom: 16px !important;
+  }
+  .top-space-sm-m16 {
+    margin-top: 16px !important;
+  }
+  .top-space-sm-p16 {
+    padding-top: 16px !important;
+  }
+  .space-sm-m12 {
+    margin: 12px !important;
+  }
+  .space-sm-p12 {
+    padding: 12px !important;
+  }
+  .right-space-sm-m12 {
+    margin-right: 12px !important;
+  }
+  .right-space-sm-p12 {
+    padding-right: 12px !important;
+  }
+  .left-space-sm-m12 {
+    margin-left: 12px !important;
+  }
+  .left-space-sm-p12 {
+    padding-left: 12px !important;
+  }
+  .bottom-space-sm-m12 {
+    margin-bottom: 12px !important;
+  }
+  .bottom-space-sm-p12 {
+    padding-bottom: 12px !important;
+  }
+  .top-space-sm-m12 {
+    margin-top: 12px !important;
+  }
+  .top-space-sm-p12 {
+    padding-top: 12px !important;
+  }
+  .space-sm-m8 {
+    margin: 8px !important;
+  }
+  .space-sm-p8 {
+    padding: 8px !important;
+  }
+  .right-space-sm-m8 {
+    margin-right: 8px !important;
+  }
+  .right-space-sm-p8 {
+    padding-right: 8px !important;
+  }
+  .left-space-sm-m8 {
+    margin-left: 8px !important;
+  }
+  .left-space-sm-p8 {
+    padding-left: 8px !important;
+  }
+  .bottom-space-sm-m8 {
+    margin-bottom: 8px !important;
+  }
+  .bottom-space-sm-p8 {
+    padding-bottom: 8px !important;
+  }
+  .top-space-sm-m8 {
+    margin-top: 8px !important;
+  }
+  .top-space-sm-p8 {
+    padding-top: 8px !important;
+  }
+  .space-sm-m4 {
+    margin: 4px !important;
+  }
+  .space-sm-p4 {
+    padding: 4px !important;
+  }
+  .right-space-sm-m4 {
+    margin-right: 4px !important;
+  }
+  .right-space-sm-p4 {
+    padding-right: 4px !important;
+  }
+  .left-space-sm-m4 {
+    margin-left: 4px !important;
+  }
+  .left-space-sm-p4 {
+    padding-left: 4px !important;
+  }
+  .bottom-space-sm-m4 {
+    margin-bottom: 4px !important;
+  }
+  .bottom-space-sm-p4 {
+    padding-bottom: 4px !important;
+  }
+  .top-space-sm-m4 {
+    margin-top: 4px !important;
+  }
+  .top-space-sm-p4 {
+    padding-top: 4px !important;
+  }
+  .space-sm-m0 {
+    margin: 0px !important;
+  }
+  .space-sm-p0 {
+    padding: 0px !important;
+  }
+  .right-space-sm-m0 {
+    margin-right: 0px !important;
+  }
+  .right-space-sm-p0 {
+    padding-right: 0px !important;
+  }
+  .left-space-sm-m0 {
+    margin-left: 0px !important;
+  }
+  .left-space-sm-p0 {
+    padding-left: 0px !important;
+  }
+  .bottom-space-sm-m0 {
+    margin-bottom: 0px !important;
+  }
+  .bottom-space-sm-p0 {
+    padding-bottom: 0px !important;
+  }
+  .top-space-sm-m0 {
+    margin-top: 0px !important;
+  }
+  .top-space-sm-p0 {
+    padding-top: 0px !important;
+  }
+}
+@media (min-width: 992px) {
+  .space-md-m20 {
+    margin: 20px !important;
+  }
+  .space-md-p20 {
+    padding: 20px !important;
+  }
+  .right-space-md-m20 {
+    margin-right: 20px !important;
+  }
+  .right-space-md-p20 {
+    padding-right: 20px !important;
+  }
+  .left-space-md-m20 {
+    margin-left: 20px !important;
+  }
+  .left-space-md-p20 {
+    padding-left: 20px !important;
+  }
+  .bottom-space-md-m20 {
+    margin-bottom: 20px !important;
+  }
+  .bottom-space-md-p20 {
+    padding-bottom: 20px !important;
+  }
+  .top-space-md-m20 {
+    margin-top: 20px !important;
+  }
+  .top-space-md-p20 {
+    padding-top: 20px !important;
+  }
+  .space-md-m16 {
+    margin: 16px !important;
+  }
+  .space-md-p16 {
+    padding: 16px !important;
+  }
+  .right-space-md-m16 {
+    margin-right: 16px !important;
+  }
+  .right-space-md-p16 {
+    padding-right: 16px !important;
+  }
+  .left-space-md-m16 {
+    margin-left: 16px !important;
+  }
+  .left-space-md-p16 {
+    padding-left: 16px !important;
+  }
+  .bottom-space-md-m16 {
+    margin-bottom: 16px !important;
+  }
+  .bottom-space-md-p16 {
+    padding-bottom: 16px !important;
+  }
+  .top-space-md-m16 {
+    margin-top: 16px !important;
+  }
+  .top-space-md-p16 {
+    padding-top: 16px !important;
+  }
+  .space-md-m12 {
+    margin: 12px !important;
+  }
+  .space-md-p12 {
+    padding: 12px !important;
+  }
+  .right-space-md-m12 {
+    margin-right: 12px !important;
+  }
+  .right-space-md-p12 {
+    padding-right: 12px !important;
+  }
+  .left-space-md-m12 {
+    margin-left: 12px !important;
+  }
+  .left-space-md-p12 {
+    padding-left: 12px !important;
+  }
+  .bottom-space-md-m12 {
+    margin-bottom: 12px !important;
+  }
+  .bottom-space-md-p12 {
+    padding-bottom: 12px !important;
+  }
+  .top-space-md-m12 {
+    margin-top: 12px !important;
+  }
+  .top-space-md-p12 {
+    padding-top: 12px !important;
+  }
+  .space-md-m8 {
+    margin: 8px !important;
+  }
+  .space-md-p8 {
+    padding: 8px !important;
+  }
+  .right-space-md-m8 {
+    margin-right: 8px !important;
+  }
+  .right-space-md-p8 {
+    padding-right: 8px !important;
+  }
+  .left-space-md-m8 {
+    margin-left: 8px !important;
+  }
+  .left-space-md-p8 {
+    padding-left: 8px !important;
+  }
+  .bottom-space-md-m8 {
+    margin-bottom: 8px !important;
+  }
+  .bottom-space-md-p8 {
+    padding-bottom: 8px !important;
+  }
+  .top-space-md-m8 {
+    margin-top: 8px !important;
+  }
+  .top-space-md-p8 {
+    padding-top: 8px !important;
+  }
+  .space-md-m4 {
+    margin: 4px !important;
+  }
+  .space-md-p4 {
+    padding: 4px !important;
+  }
+  .right-space-md-m4 {
+    margin-right: 4px !important;
+  }
+  .right-space-md-p4 {
+    padding-right: 4px !important;
+  }
+  .left-space-md-m4 {
+    margin-left: 4px !important;
+  }
+  .left-space-md-p4 {
+    padding-left: 4px !important;
+  }
+  .bottom-space-md-m4 {
+    margin-bottom: 4px !important;
+  }
+  .bottom-space-md-p4 {
+    padding-bottom: 4px !important;
+  }
+  .top-space-md-m4 {
+    margin-top: 4px !important;
+  }
+  .top-space-md-p4 {
+    padding-top: 4px !important;
+  }
+  .space-md-m0 {
+    margin: 0px !important;
+  }
+  .space-md-p0 {
+    padding: 0px !important;
+  }
+  .right-space-md-m0 {
+    margin-right: 0px !important;
+  }
+  .right-space-md-p0 {
+    padding-right: 0px !important;
+  }
+  .left-space-md-m0 {
+    margin-left: 0px !important;
+  }
+  .left-space-md-p0 {
+    padding-left: 0px !important;
+  }
+  .bottom-space-md-m0 {
+    margin-bottom: 0px !important;
+  }
+  .bottom-space-md-p0 {
+    padding-bottom: 0px !important;
+  }
+  .top-space-md-m0 {
+    margin-top: 0px !important;
+  }
+  .top-space-md-p0 {
+    padding-top: 0px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .space-lg-m20 {
+    margin: 20px !important;
+  }
+  .space-lg-p20 {
+    padding: 20px !important;
+  }
+  .right-space-lg-m20 {
+    margin-right: 20px !important;
+  }
+  .right-space-lg-p20 {
+    padding-right: 20px !important;
+  }
+  .left-space-lg-m20 {
+    margin-left: 20px !important;
+  }
+  .left-space-lg-p20 {
+    padding-left: 20px !important;
+  }
+  .bottom-space-lg-m20 {
+    margin-bottom: 20px !important;
+  }
+  .bottom-space-lg-p20 {
+    padding-bottom: 20px !important;
+  }
+  .top-space-lg-m20 {
+    margin-top: 20px !important;
+  }
+  .top-space-lg-p20 {
+    padding-top: 20px !important;
+  }
+  .space-lg-m16 {
+    margin: 16px !important;
+  }
+  .space-lg-p16 {
+    padding: 16px !important;
+  }
+  .right-space-lg-m16 {
+    margin-right: 16px !important;
+  }
+  .right-space-lg-p16 {
+    padding-right: 16px !important;
+  }
+  .left-space-lg-m16 {
+    margin-left: 16px !important;
+  }
+  .left-space-lg-p16 {
+    padding-left: 16px !important;
+  }
+  .bottom-space-lg-m16 {
+    margin-bottom: 16px !important;
+  }
+  .bottom-space-lg-p16 {
+    padding-bottom: 16px !important;
+  }
+  .top-space-lg-m16 {
+    margin-top: 16px !important;
+  }
+  .top-space-lg-p16 {
+    padding-top: 16px !important;
+  }
+  .space-lg-m12 {
+    margin: 12px !important;
+  }
+  .space-lg-p12 {
+    padding: 12px !important;
+  }
+  .right-space-lg-m12 {
+    margin-right: 12px !important;
+  }
+  .right-space-lg-p12 {
+    padding-right: 12px !important;
+  }
+  .left-space-lg-m12 {
+    margin-left: 12px !important;
+  }
+  .left-space-lg-p12 {
+    padding-left: 12px !important;
+  }
+  .bottom-space-lg-m12 {
+    margin-bottom: 12px !important;
+  }
+  .bottom-space-lg-p12 {
+    padding-bottom: 12px !important;
+  }
+  .top-space-lg-m12 {
+    margin-top: 12px !important;
+  }
+  .top-space-lg-p12 {
+    padding-top: 12px !important;
+  }
+  .space-lg-m8 {
+    margin: 8px !important;
+  }
+  .space-lg-p8 {
+    padding: 8px !important;
+  }
+  .right-space-lg-m8 {
+    margin-right: 8px !important;
+  }
+  .right-space-lg-p8 {
+    padding-right: 8px !important;
+  }
+  .left-space-lg-m8 {
+    margin-left: 8px !important;
+  }
+  .left-space-lg-p8 {
+    padding-left: 8px !important;
+  }
+  .bottom-space-lg-m8 {
+    margin-bottom: 8px !important;
+  }
+  .bottom-space-lg-p8 {
+    padding-bottom: 8px !important;
+  }
+  .top-space-lg-m8 {
+    margin-top: 8px !important;
+  }
+  .top-space-lg-p8 {
+    padding-top: 8px !important;
+  }
+  .space-lg-m4 {
+    margin: 4px !important;
+  }
+  .space-lg-p4 {
+    padding: 4px !important;
+  }
+  .right-space-lg-m4 {
+    margin-right: 4px !important;
+  }
+  .right-space-lg-p4 {
+    padding-right: 4px !important;
+  }
+  .left-space-lg-m4 {
+    margin-left: 4px !important;
+  }
+  .left-space-lg-p4 {
+    padding-left: 4px !important;
+  }
+  .bottom-space-lg-m4 {
+    margin-bottom: 4px !important;
+  }
+  .bottom-space-lg-p4 {
+    padding-bottom: 4px !important;
+  }
+  .top-space-lg-m4 {
+    margin-top: 4px !important;
+  }
+  .top-space-lg-p4 {
+    padding-top: 4px !important;
+  }
+  .space-lg-m0 {
+    margin: 0px !important;
+  }
+  .space-lg-p0 {
+    padding: 0px !important;
+  }
+  .right-space-lg-m0 {
+    margin-right: 0px !important;
+  }
+  .right-space-lg-p0 {
+    padding-right: 0px !important;
+  }
+  .left-space-lg-m0 {
+    margin-left: 0px !important;
+  }
+  .left-space-lg-p0 {
+    padding-left: 0px !important;
+  }
+  .bottom-space-lg-m0 {
+    margin-bottom: 0px !important;
+  }
+  .bottom-space-lg-p0 {
+    padding-bottom: 0px !important;
+  }
+  .top-space-lg-m0 {
+    margin-top: 0px !important;
+  }
+  .top-space-lg-p0 {
+    padding-top: 0px !important;
+  }
+}
+/* -- Material Design Table style -------------- */
+.table-pretty tr input {
+  vertical-align: middle;
+  margin: 0;
+  padding: 0 5px;
+}
+.table-pretty thead tr th {
+  background-color: #65afa0;
+  color: #ffffff;
+  border-bottom: none;
+  padding: 5px;
+  vertical-align: middle;
+}
+.table-pretty thead tr th label {
+  margin: 0;
+  padding: 0;
+}
+.table-pretty thead tr th span {
+  display: inline-block;
+}
+.table-pretty thead tr th .table-pretty-filter {
+  margin-left: 5px;
+}
+.table-pretty thead tr th .table-pretty-filter .fa.fa-sort {
+  opacity: 0.5;
+}
+.table-pretty thead tr th:hover .table-pretty-filter .fa.fa-sort {
+  opacity: 1;
+}
+.table-pretty > tbody tr td {
+  padding: 15px 5px;
+  vertical-align: top;
+}
+.table-pretty > tbody label {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+.table-pretty > tbody + tbody {
+  border-top: none;
+}
+.table-pretty.table-striped > tbody.reverse-table-striped > tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+.table-pretty.table-striped > tbody.reverse-table-striped > tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+@media screen and (max-width: 768px) {
+  .table-responsive-vertical > .table-pretty {
+    margin-bottom: 0;
+    background-color: transparent;
+  }
+  .table-responsive-vertical > .table-pretty > thead,
+  .table-responsive-vertical > .table-pretty > tfoot {
+    display: none;
+  }
+  .table-responsive-vertical > .table-pretty > tbody {
+    display: block;
+  }
+  .table-responsive-vertical > .table-pretty > tbody > tr {
+    display: block;
+    border-radius: 2px;
+    margin-bottom: 15px;
+  }
+  .table-responsive-vertical > .table-pretty > tbody > tr > td {
+    display: block;
+    vertical-align: middle;
+  }
+  .table-responsive-vertical > .table-pretty > tbody > tr > td[data-title]:before {
+    content: attr(data-title);
+    margin-right: 5px;
+    float: left;
+    font-size: inherit;
+    font-weight: bold;
+    color: #65afa0;
+    width: 100%;
+    text-align: left !important;
+    word-wrap: break-word;
+  }
+  .table-responsive-vertical.shadow-z-1 {
+    box-shadow: none;
+  }
+  .table-responsive-vertical.shadow-z-1 > .table-pretty > tbody > tr {
+    border: none;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+  }
+}
+.table-pretty-pagination .pagination-container .pagination {
+  margin: 0;
+}
+.table-pretty-pagination .pagination-container .pagination li > a {
+  font-size: 12px;
+  height: 30px;
+  padding: 7px 10px;
+}
+.table-pretty-pagination .pagination-container .pagination li:first-child a,
+.table-pretty-pagination .pagination-container .pagination li:first-child + li a,
+.table-pretty-pagination .pagination-container .pagination li:last-child a,
+.table-pretty-pagination .pagination-container .pagination li:nth-last-child(2) a {
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.table-pretty-pagination .pagination-container .pagination li.disabled {
+  opacity: 0.5;
+}
+.table-pretty-pagination .pagination-container .pagination-page-input {
+  width: 100px;
+  margin-left: 10px;
+  height: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.table-pretty-pagination .pagination-container .pagination-page-size {
+  background: white;
+  height: 30px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.spinner-spinning-bubbles > svg {
+  vertical-align: middle;
+}
+div.floatingCirclesG {
+  margin: auto;
+  display: inline-block !important;
+  vertical-align: middle;
+}
+div.floatingCirclesG.width128 {
+  position: relative;
+  width: 128px;
+  height: 128px;
+}
+div.floatingCirclesG.width128 div.frotateG_01 {
+  left: 0;
+  top: 52px;
+  animation-delay: 0.24s;
+}
+div.floatingCirclesG.width128 div.frotateG_02 {
+  left: 15px;
+  top: 15px;
+  animation-delay: 0.32s;
+}
+div.floatingCirclesG.width128 div.frotateG_03 {
+  left: 52px;
+  top: 0;
+  animation-delay: 0.4s;
+}
+div.floatingCirclesG.width128 div.frotateG_04 {
+  right: 15px;
+  top: 15px;
+  animation-delay: 0.48s;
+}
+div.floatingCirclesG.width128 div.frotateG_05 {
+  right: 0;
+  top: 52px;
+  animation-delay: 0.56s;
+}
+div.floatingCirclesG.width128 div.frotateG_06 {
+  right: 15px;
+  bottom: 15px;
+  animation-delay: 0.64s;
+}
+div.floatingCirclesG.width128 div.frotateG_07 {
+  left: 52px;
+  bottom: 0;
+  animation-delay: 0.72s;
+}
+div.floatingCirclesG.width128 div.frotateG_08 {
+  left: 15px;
+  bottom: 15px;
+  animation-delay: 0.8s;
+}
+div.floatingCirclesG.width128 .f_circleG {
+  position: absolute;
+  background-color: #FFF0;
+  height: 23px;
+  width: 23px;
+  border-radius: 12px;
+  animation-name: f_fade_222;
+  animation-duration: 0.64s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+div.floatingCirclesG.width128 .f_circleG.color_5293D4 {
+  animation-name: f_fade_5293D4;
+}
+div.floatingCirclesG.width128 .f_circleG.color_fff {
+  animation-name: f_fade_fff;
+}
+div.floatingCirclesG.width128 .f_circleG.color_222 {
+  animation-name: f_fade_222;
+}
+div.floatingCirclesG.width64 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+div.floatingCirclesG.width64 div.frotateG_01 {
+  left: 0;
+  top: 26px;
+  animation-delay: 0.24s;
+}
+div.floatingCirclesG.width64 div.frotateG_02 {
+  left: 8px;
+  top: 8px;
+  animation-delay: 0.32s;
+}
+div.floatingCirclesG.width64 div.frotateG_03 {
+  left: 26px;
+  top: 0;
+  animation-delay: 0.4s;
+}
+div.floatingCirclesG.width64 div.frotateG_04 {
+  right: 8px;
+  top: 8px;
+  animation-delay: 0.48s;
+}
+div.floatingCirclesG.width64 div.frotateG_05 {
+  right: 0;
+  top: 26px;
+  animation-delay: 0.56s;
+}
+div.floatingCirclesG.width64 div.frotateG_06 {
+  right: 8px;
+  bottom: 8px;
+  animation-delay: 0.64s;
+}
+div.floatingCirclesG.width64 div.frotateG_07 {
+  left: 26px;
+  bottom: 0;
+  animation-delay: 0.72s;
+}
+div.floatingCirclesG.width64 div.frotateG_08 {
+  left: 8px;
+  bottom: 8px;
+  animation-delay: 0.8s;
+}
+div.floatingCirclesG.width64 .f_circleG {
+  position: absolute;
+  background-color: #FFF0;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  animation-name: f_fade_222;
+  animation-duration: 0.64s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+div.floatingCirclesG.width64 .f_circleG.color_5293D4 {
+  animation-name: f_fade_5293D4;
+}
+div.floatingCirclesG.width64 .f_circleG.color_fff {
+  animation-name: f_fade_fff;
+}
+div.floatingCirclesG.width64 .f_circleG.color_222 {
+  animation-name: f_fade_222;
+}
+div.floatingCirclesG.width48 {
+  position: relative;
+  width: 48px;
+  height: 48px;
+}
+div.floatingCirclesG.width48 div.frotateG_01 {
+  left: 0;
+  top: 20px;
+  animation-delay: 0.24s;
+}
+div.floatingCirclesG.width48 div.frotateG_02 {
+  left: 6px;
+  top: 6px;
+  animation-delay: 0.32s;
+}
+div.floatingCirclesG.width48 div.frotateG_03 {
+  left: 20px;
+  top: 0;
+  animation-delay: 0.4s;
+}
+div.floatingCirclesG.width48 div.frotateG_04 {
+  right: 6px;
+  top: 6px;
+  animation-delay: 0.48s;
+}
+div.floatingCirclesG.width48 div.frotateG_05 {
+  right: 0;
+  top: 20px;
+  animation-delay: 0.56s;
+}
+div.floatingCirclesG.width48 div.frotateG_06 {
+  right: 6px;
+  bottom: 6px;
+  animation-delay: 0.64s;
+}
+div.floatingCirclesG.width48 div.frotateG_07 {
+  left: 20px;
+  bottom: 0;
+  animation-delay: 0.72s;
+}
+div.floatingCirclesG.width48 div.frotateG_08 {
+  left: 6px;
+  bottom: 6px;
+  animation-delay: 0.8s;
+}
+div.floatingCirclesG.width48 .f_circleG {
+  position: absolute;
+  background-color: #FFF0;
+  height: 9px;
+  width: 9px;
+  border-radius: 4px;
+  animation-name: f_fade_222;
+  animation-duration: 0.64s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+div.floatingCirclesG.width48 .f_circleG.color_5293D4 {
+  animation-name: f_fade_5293D4;
+}
+div.floatingCirclesG.width48 .f_circleG.color_fff {
+  animation-name: f_fade_fff;
+}
+div.floatingCirclesG.width48 .f_circleG.color_222 {
+  animation-name: f_fade_222;
+}
+div.floatingCirclesG.width32 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+div.floatingCirclesG.width32 div.frotateG_01 {
+  left: 0;
+  top: 13px;
+  animation-delay: 0.24s;
+}
+div.floatingCirclesG.width32 div.frotateG_02 {
+  left: 4px;
+  top: 4px;
+  animation-delay: 0.32s;
+}
+div.floatingCirclesG.width32 div.frotateG_03 {
+  left: 13px;
+  top: 0;
+  animation-delay: 0.4s;
+}
+div.floatingCirclesG.width32 div.frotateG_04 {
+  right: 4px;
+  top: 4px;
+  animation-delay: 0.48s;
+}
+div.floatingCirclesG.width32 div.frotateG_05 {
+  right: 0;
+  top: 13px;
+  animation-delay: 0.56s;
+}
+div.floatingCirclesG.width32 div.frotateG_06 {
+  right: 4px;
+  bottom: 4px;
+  animation-delay: 0.64s;
+}
+div.floatingCirclesG.width32 div.frotateG_07 {
+  left: 13px;
+  bottom: 0;
+  animation-delay: 0.72s;
+}
+div.floatingCirclesG.width32 div.frotateG_08 {
+  left: 4px;
+  bottom: 4px;
+  animation-delay: 0.8s;
+}
+div.floatingCirclesG.width32 .f_circleG {
+  position: absolute;
+  background-color: #FFF0;
+  height: 6px;
+  width: 6px;
+  border-radius: 3px;
+  animation-name: f_fade_222;
+  animation-duration: 0.64s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+div.floatingCirclesG.width32 .f_circleG.color_5293D4 {
+  animation-name: f_fade_5293D4;
+}
+div.floatingCirclesG.width32 .f_circleG.color_fff {
+  animation-name: f_fade_fff;
+}
+div.floatingCirclesG.width32 .f_circleG.color_222 {
+  animation-name: f_fade_222;
+}
+div.floatingCirclesG.width16 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+div.floatingCirclesG.width16 div.frotateG_01 {
+  left: 0;
+  top: 7px;
+  animation-delay: 0.24s;
+}
+div.floatingCirclesG.width16 div.frotateG_02 {
+  left: 2px;
+  top: 2px;
+  animation-delay: 0.32s;
+}
+div.floatingCirclesG.width16 div.frotateG_03 {
+  left: 7px;
+  top: 0;
+  animation-delay: 0.4s;
+}
+div.floatingCirclesG.width16 div.frotateG_04 {
+  right: 2px;
+  top: 2px;
+  animation-delay: 0.48s;
+}
+div.floatingCirclesG.width16 div.frotateG_05 {
+  right: 0;
+  top: 7px;
+  animation-delay: 0.56s;
+}
+div.floatingCirclesG.width16 div.frotateG_06 {
+  right: 2px;
+  bottom: 2px;
+  animation-delay: 0.64s;
+}
+div.floatingCirclesG.width16 div.frotateG_07 {
+  left: 7px;
+  bottom: 0;
+  animation-delay: 0.72s;
+}
+div.floatingCirclesG.width16 div.frotateG_08 {
+  left: 2px;
+  bottom: 2px;
+  animation-delay: 0.8s;
+}
+div.floatingCirclesG.width16 .f_circleG {
+  position: absolute;
+  background-color: #FFF0;
+  height: 3px;
+  width: 3px;
+  border-radius: 1px;
+  animation-name: f_fade_222;
+  animation-duration: 0.64s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+div.floatingCirclesG.width16 .f_circleG.color_5293D4 {
+  animation-name: f_fade_5293D4;
+}
+div.floatingCirclesG.width16 .f_circleG.color_fff {
+  animation-name: f_fade_fff;
+}
+div.floatingCirclesG.width16 .f_circleG.color_222 {
+  animation-name: f_fade_222;
+}
+@loop-value e(extract(@loop-array, @i));
+@keyframes f_fade_26 {
+  0% {
+    background-color: #26;
+  }
+  100% {
+    background-color: #FFF0;
+  }
+}
+@loop-value e(extract(@loop-array, @i));
+@keyframes f_fade_26 {
+  0% {
+    background-color: #26;
+  }
+  100% {
+    background-color: #FFF0;
+  }
+}
+@loop-value e(extract(@loop-array, @i));
+@keyframes f_fade_26 {
+  0% {
+    background-color: #26;
+  }
+  100% {
+    background-color: #FFF0;
+  }
+}
+.spinner-bouncing-ball {
+  display: inline-block;
+}
+@keyframes spinner-bouncing-ball {
+  0%,
+  100% {
+    transform: translateY(0px);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-5px);
+    animation-timing-function: ease-in;
+  }
+}
+.spinner-bouncing-ball .bouncing-ball {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  animation: spinner-bouncing-ball 0.8s ease-in-out infinite;
+}
+.spinner-bouncing-ball .bouncing-ball:nth-child(1) {
+  background-color: #222;
+  animation-delay: 0s;
+}
+.spinner-bouncing-ball .bouncing-ball:nth-child(2) {
+  background-color: #222;
+  animation-delay: 0.2s;
+}
+.spinner-bouncing-ball .bouncing-ball:nth-child(3) {
+  background-color: #222;
+  animation-delay: 0.4s;
+}
+.spinner-volume {
+  display: inline-block;
+}
+@keyframes spinner-volume {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1, 3);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+.spinner-volume .volume {
+  display: inline-block;
+  width: 2px;
+  height: 6px;
+  border-radius: 1px;
+  animation: spinner-volume 1.8s ease-in-out infinite;
+}
+.spinner-volume .volume:nth-child(1) {
+  background-color: #222;
+  animation-delay: 0s;
+}
+.spinner-volume .volume:nth-child(2) {
+  background-color: #222;
+  animation-delay: 0.09s;
+}
+.spinner-volume .volume:nth-child(3) {
+  background-color: #222;
+  animation-delay: 0.18s;
+}
+.spinner-volume .volume:nth-child(4) {
+  background-color: #222;
+  animation-delay: 0.27s;
+}

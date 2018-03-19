@@ -1,43 +1,21 @@
 {
-    "name": "ovh-common-style",
-    "version": "3.2.2",
-    "description": "Managers common style",
-    "main": "./dist/ovh-common-style.min.js",
-    "repository": "ovh-ux/ovh-common-style.git",
-    "scripts": {
-        "test": "grunt test",
-        "fix": "eslint --fix src"
-    },
-    "devDependencies": {
-        "eslint": "^4.0.0",
-        "eslint-config-ovh": "^0.1.1",
-        "grunt": "0.4.x",
-        "grunt-autoprefixer": "~2.2.0",
-        "grunt-bump": "~0.1.0",
-        "grunt-complexity": "~0.1.0",
-        "grunt-contrib-clean": "~0.6.0",
-        "grunt-contrib-concat": "~0.5.0",
-        "grunt-contrib-copy": "~0.7.0",
-        "grunt-contrib-csslint": "~0.4.0",
-        "grunt-contrib-cssmin": "~0.12.2",
-        "grunt-contrib-jshint": "~0.11.0",
-        "grunt-contrib-less": "~1.0.0",
-        "grunt-contrib-uglify": "~0.8.0",
-        "grunt-contrib-watch": "~0.6.1",
-        "grunt-eslint": "^20.0.0",
-        "grunt-karma": "~0.10.1",
-        "grunt-ng-annotate": "~0.10.0",
-        "grunt-angular-templates": "^0.5.4",
-        "jshint-stylish": "~1.0.0",
-        "karma": "~0.12.9",
-        "karma-jasmine": "~0.3.0",
-        "karma-phantomjs-launcher": "~0.1.4",
-        "matchdep": "^0.3.0",
-        "imagemin": "3.2.0",
-        "imagemin-gifsicle": "^4.0.0",
-        "q": "1.4.1",
-        "grunt-ovh-loadertohtml": "git+ssh://git@stash.ovh.net:7999/uxtools/grunt-ovh-loadertohtml.git#master"
-    },
-    "license": "BSD-3-Clause",
-    "author": "OVH SAS"
+  "name": "ovh-common-style",
+  "version": "3.2.2",
+  "description": "Managers common style",
+  "repository": "ovh-ux/ovh-common-style",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-bump": "0.3.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.5.0"
+  },
+  "license": "BSD-3-Clause",
+  "author": "OVH SAS"
 }

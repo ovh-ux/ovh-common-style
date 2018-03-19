@@ -184,31 +184,6 @@ You can speed up animation with .animated-300 or infinite .animated-infinite
 </button>
 ```
 
-
-
-## Directive: Spinner
----------------------
-
-Add an configurable SVG spinner.
-
-```html
-<spinner />
-<div spinner></div>
-<div spinner size="32"></div>
-<div spinner color="pink"></div>
-<div spinner type="bars"></div>
-```
-
-### Options
-
-  - `size`: Set the width and Height ( _default_ : 16px)
-  - `width`: Set the width, if `size` not given ( _default_ : 16px)
-  - `height`: Set the Height, if `size` not given ( _default_ : 16px)
-  - `color`: Set the color ( _default_ : #222)
-  - `type`: Set the spinner type, see [here](http://jxnblk.com/loading/) ( _default_ : spinning-bubbles, _can be_ : 'bubbles', 'bars', 'spinning-bubbles')
-
-
-
 # Installation
 
 ## Bower
@@ -220,16 +195,6 @@ Add an configurable SVG spinner.
     npm install ovh-common-style --save
 
 # Configuration
-
-## Angularjs directives
-
-```html
- <script src="bower_components/ovh-common-style/dist/ovh-common-style.min.js"></script
-```
-
-```javascript
-angular.module("myApp", ["ovh-common-style"]);
-```
 
 ## LESS style
 
