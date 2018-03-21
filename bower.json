@@ -1,7 +1,7 @@
 {
   "name": "ovh-common-style",
   "description": "Managers common style",
-  "version": "3.2.2",
+  "version": "4.0.0",
   "main": "dist/ovh-common-style.css",
   "ignore": [
     "components",
