@@ -1,6 +1,6 @@
 {
   "name": "ovh-common-style",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Managers common style",
   "repository": "ovh-ux/ovh-common-style",
   "scripts": {
